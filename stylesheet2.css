@@ -14,7 +14,7 @@ h1 {
   font-size: 80px;
 	color: white;
 	position: relative;
-	text-align: center;
+	text-align: auto;
 	opacity: 0.2;
 }
 
