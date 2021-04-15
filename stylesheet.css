@@ -131,18 +131,14 @@ p {
 
 /* NAVIGATION */
   nav.dms {
-  font-family: 'newCiGX';
-  font-variation-settings: 'wght' 300;
-  margin-top: 50px;
-  margin-left: 1230px;
-  font-size: 50px;
-  top: 0;
-  position: fixed;
-  z-index: 30;
-  opacity:1;
-  line-height: 1;
-   width:530px;
-   background-color: rgba(249,249,249,0)
+    font-family: 'newCiGX';
+  	font-variation-settings: 'wght' 100;
+  	font-size: 1em;
+  	background: grey;
+  	border-radius: 50%;
+  	outline: none;
+  	border: 2px solid black;
+  	padding: 1em;
 }
 nav div a{
   opacity:0.6;
