@@ -5,6 +5,7 @@
   margin-left: auto;
   margin-right: auto;
 	width: 50%;
+	position: fixex;
 
 }
 h1 {
@@ -12,7 +13,7 @@ h1 {
 	font-variation-settings: 'wght' 900;
   font-size: 80px;
 	color: white;
-	position: fixed;
+	position: relative;
 	text-align: center;
 	opacity: 0.2;
 }
