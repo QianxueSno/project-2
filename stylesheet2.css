@@ -10,11 +10,10 @@
 h1 {
   font-family: 'newCiGX', sans-serif;
 	font-variation-settings: 'wght' 100;
-  margin-top:50px;
-  margin-left: 30px;
   font-size: 80px;
 	color: white;
 	position: fixed;
+	text-align: center;
 }
 
 @font-face {
