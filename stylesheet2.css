@@ -114,6 +114,7 @@ h1 {
   margin-left: 30px;
   font-size: 220px;
 	color: black;
+	position: fixed;
 
 }
 
@@ -156,4 +157,8 @@ a:hover, a:visited, a:link, a:active
 }
 nav {
   display: flex;
+}
+
+.lc {
+	position: absolute;
 }
