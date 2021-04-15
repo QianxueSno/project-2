@@ -27,11 +27,11 @@ body{
 }
 
 .newCiGX, .newCiGX *{
-	font-variation-settings: 'wght' var(--wght),'wdth' var(--wdth), 'XHGT' var(--XHGT);
+	font-variation-settings: 'wght' var(--wght);
 }
 
 section{
-	margin: 3rem 0;
+	margin: 5rem 0;
 }
 
 
