@@ -11,10 +11,13 @@
 
 .hi{
 	hight: 50%;
-	left:500px;
+	left:50%;
 
 }
-
+.hello{
+	hight:30%;
+	right: 50px;
+}
 h1 {
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 900;
