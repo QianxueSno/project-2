@@ -47,9 +47,7 @@ $(document).ready(function(){
 
 
 	$('#random').click(function(event) {
-		let randomwidth = randomNumber(40,150);
-		let randomwght = randomNumber(100,1200);
-		let randomxhgt = randomNumber(0,100);
+		let randomwght = randomNumber(60,1200);
 
 		$("#content").css({
 			"--wdth": randomwidth,
