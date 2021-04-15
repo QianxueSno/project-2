@@ -166,6 +166,9 @@ nav div a:hover{
   font-size: 30px;
   border: 0.1px solid blue;
    border-radius: 500px;
+   padding: 0;
+box-sizing: border-box;
+background-color: Gainsboro;
 }
 .dms a:hover {
   background-color: rgba(249,249,249,0.6);
