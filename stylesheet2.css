@@ -150,6 +150,7 @@ p {
   margin-left: 1330px;
   width: 200px;
   text-decoration:
+	position:fixed;
 }
 .dms:hover{
 	cursor: pointer;
