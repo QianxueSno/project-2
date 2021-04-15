@@ -11,7 +11,7 @@ h1 {
 	font-variation-settings: 'wght' 900;
   font-size: 80px;
 	color: white;
-	position: relative;
+	position: fixed;
 	text-align: auto;
 	opacity: 0.2;
 }
