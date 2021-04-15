@@ -96,7 +96,7 @@ button{
 	padding: 1em;
 }
 button:hover{
-	color: darkred;
+	color: Chartreuse;
 	cursor: pointer;
 }
   .intro {
