@@ -8,6 +8,13 @@
 .lc {
 	height: 100%;
 }
+
+.hi{
+	hight: 50%;
+	left:500px;
+
+}
+
 h1 {
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 900;
