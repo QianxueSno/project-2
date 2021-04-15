@@ -158,12 +158,9 @@ nav div a:hover{
 
 }
 .dms a {
-  float: left;
-  text-align: center;
-  padding:42px 55px;
+  float: right;
   text-decoration: none;
   font-size: 30px;
-   border-radius: 500px;
    padding: 0;
 box-sizing: border-box;
 background-color: Gainsboro;
