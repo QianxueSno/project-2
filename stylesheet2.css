@@ -45,6 +45,17 @@ nav {
   display: flex;
 }
 
+
+.1 {
+	position: relative;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width: 40%;
+	position: fixex;
+
+}
+
 @font-face {
   font-family: 'newCiGX';
   src: url('fonts/newCiGX.woff2') format('woff2-variations'),
