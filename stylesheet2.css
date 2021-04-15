@@ -92,35 +92,6 @@ input.axis-range{
 }
 
 
-/*BUTTON STYLES*/
-
-#buttons{
-	text-align: center;
-}
-button{
-	font-family: 'newCiGX';
-	font-variation-settings: 'wght' 300;
-	font-size: 1em;
-	background: grey;
-	border-radius: 50%;
-	outline: none;
-	border: 2px solid black;
-	padding: 1em;
-}
-button:hover{
-	color: Chartreuse;
-	cursor: pointer;
-}
-  .intro {
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 28px;
-  margin-top: 70px;
-  margin-left: 90px;
-  line-height: 1.4;
-  position: relative;
-  z-index: 12;
-}
-
 
 
 h2 {
@@ -139,7 +110,7 @@ p {
 
 
 /* NAVIGATION */
-.dms{
+.ci{
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 300;
 	font-size: 1em;
@@ -153,7 +124,7 @@ p {
   text-decoration:
 	position:fixed;
 }
-.dms:hover{
+.ci:hover{
 	cursor: pointer;
 }
 
