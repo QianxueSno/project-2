@@ -166,10 +166,9 @@ box-sizing: border-box;
 background-color: Gainsboro;
 }
 .dms a:hover {
+  box-sizing: border-box;
+  background-color: Gainsboro;
   background-color: rgba(249,249,249,0.6);
-  color: blue;
-  opacity: 0.6;
-  font-size: 35px;
   duration: 1s;
 }
 
