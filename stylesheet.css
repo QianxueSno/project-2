@@ -142,6 +142,7 @@ nav{
   text-decoration: none;
   margin-top: 50px;
   margin-left: 230px;
+  width: 200px;
 }
 nav:hover{
   color: Chartreuse;
