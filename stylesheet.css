@@ -140,6 +140,8 @@ nav{
   border: 2px solid black;
   padding: 1em;
   text-decoration: none;
+  margin-top: 50px;
+  margin-left: 1230px;
 }
 nav:hover{
   color: Chartreuse;
