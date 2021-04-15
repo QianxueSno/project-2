@@ -132,10 +132,10 @@ p {
 /* NAVIGATION */
   nav.dms {
   font-family: 'newCiGX';
+  font-variation-settings: 'wght' 100;
   margin-top: 50px;
-  margin-left: 1230px;
+  margin-left: 30px;
   font-size: 50px;
-  top: 0;
   position: fixed;
   z-index: 30;
   opacity:1;
