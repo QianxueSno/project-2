@@ -143,7 +143,6 @@ p {
   width: 200px;
 }
 .misspt:hover{
-  text-decoration: none;
   color: Chartreuse;
-  cursor: pointer;
+	cursor: pointer;
 }
