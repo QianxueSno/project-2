@@ -21,7 +21,7 @@ h2 {
 	font-variation-settings: 'wght' 100;
   font-size: 80px;
 	color: white;
-	position: relative;
+	position: absolute;
 	text-align: auto;
 	opacity: 0.2;
 }
