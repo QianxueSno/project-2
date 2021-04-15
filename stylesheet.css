@@ -131,7 +131,7 @@ p {
 
 /* NAVIGATION */
   nav.dms {
-  font-family: 'Noto Sansß', sans-serif;
+  font-family: 'newCiGX';
   margin-top: 50px;
   margin-left: 1230px;
   font-size: 50px;
@@ -141,7 +141,7 @@ p {
   opacity:1;
   line-height: 1;
    width:530px;
-   background-color: rgba(249,249,249,0)
+   background-color: grey;
 }
 nav div a{
   opacity:0.6;
