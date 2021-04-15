@@ -141,7 +141,13 @@ p {
 	padding: 1em;
   margin-left: 130px;
   width: 200px;
+  text-decoration:
 }
 .misspt:hover{
 	cursor: pointer;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
 }
