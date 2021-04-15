@@ -61,7 +61,7 @@ section{
 }
 #sliders li{
 	display: flex;
-	justify-content: left;
+	justify-content: center;
 }
 
 .range-name, .min, .max{
@@ -71,7 +71,7 @@ section{
 	text-align: right;
 }
 .range-name::after{
-	content: ': ';
+	content: '! ';
 }
 
 input.axis-range{
