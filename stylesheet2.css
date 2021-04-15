@@ -4,7 +4,9 @@
 	display: block;
 	height: 100%;
 	position: fixex;
-
+}
+.lc {
+	height: 100%;
 }
 h1 {
   font-family: 'newCiGX';
