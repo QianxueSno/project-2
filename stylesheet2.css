@@ -1,8 +1,4 @@
-*{
-	margin: 0;
-	padding: 0;
-  background-color:black;
-}
+
 .lc {
 	position: absolute;
 	display: block;
@@ -41,6 +37,7 @@ body{
   margin-top: 0;
 	margin-bottom: 2rem;
 	color:  var(--color);
+	background-color:black;
 }
 
 .newCiGX, .newCiGX *{
