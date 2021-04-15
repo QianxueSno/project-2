@@ -34,7 +34,6 @@ section{
 	margin: 5rem 0;
 }
 
-
 #intro{
 	font-size:25vw;
 	line-height: 0.9;
@@ -44,7 +43,7 @@ section{
 #content{
 	width: 33em;
 	height: 500px;
-	margin: auto;
+	margin: center;
 	--wght: 900;
 }
 
