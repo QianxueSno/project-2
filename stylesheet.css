@@ -141,7 +141,7 @@ p {
   opacity:1;
   line-height: 1;
    width:530px;
-   background-color: grey;
+   background-color: rgba(249,249,249,0)
 }
 nav div a{
   opacity:0.6;
@@ -149,7 +149,6 @@ nav div a{
 }
 nav div a:hover{
   opacity:1.5;
-  width: 200px;
 }
 
 .dms{
