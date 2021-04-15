@@ -141,7 +141,7 @@ p {
   z-index: 30;
   opacity:1;
   line-height: 1;
-   width:530px;
+   width:230px;
  	background: grey;
  	border-radius: 50%;
  	outline: none;
@@ -152,10 +152,6 @@ nav div a{
   opacity:0.6;
   width: 400px;
 }
-nav div a:hover{
-  opacity:1.5;
-}
-
 .dms{
   overflow: hidden;
 
