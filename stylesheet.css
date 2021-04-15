@@ -139,8 +139,10 @@ nav{
   outline: none;
   border: 2px solid black;
   padding: 1em;
+  text-decoration: none;
 }
 nav:hover{
   color: Chartreuse;
   cursor: pointer;
+  text-decoration: none;
 }
