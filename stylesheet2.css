@@ -21,6 +21,13 @@
 		position: relative;
 		left: 200px;
 }
+.hi3{
+	hight: 50%;
+		width: 800px;
+		top: 1500px;
+		position: relative;
+		left: 400px;
+}
 h1 {
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 900;
