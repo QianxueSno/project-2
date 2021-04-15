@@ -109,6 +109,7 @@ button:hover{
 
 h1 {
   font-family: 'newCiGX', sans-serif;
+	font-variation-settings: 'wght' 100;
   margin-top: 593px;
   margin-left: 130px;
   font-size: 250px;
