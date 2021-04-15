@@ -19,8 +19,8 @@
   --wght: 400;
 }
 body{
-	font-family: 'newCiGX', sans-serif;
-	font-style: normal;
+	font-family: 'newCiGX';
+	font-style: regular;
 	font-size: 30px;
 	line-height: 1.5;
 	margin-bottom: 4rem;
@@ -85,7 +85,7 @@ input.axis-range{
 	text-align: center;
 }
 button{
-	font-family: 'newCiGX', sans-serif;
+	font-family: 'newCiGX';
 	font-variation-settings: 'wght' 300,'wdth' 100, 'XHGT' 0;
 	font-size: 1em;
 	background: white;
@@ -99,7 +99,7 @@ button:hover{
 	cursor: pointer;
 }
   .intro {
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 28px;
   margin-top: 70px;
   margin-left: 90px;
@@ -109,7 +109,7 @@ button:hover{
 }
 
   h1 {
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
   margin-top: 593px;
   margin-left: 130px;
   font-size: 50px;
@@ -117,7 +117,7 @@ color:rgb(0, 107, 49);
 }
 
 h2 {
-font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Noto Sans', sans-serif;
 color:black;
 }
 
@@ -125,7 +125,7 @@ color:black;
 
 /* NAVIGATION */
   nav.dms {
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Noto Sansß', sans-serif;
   margin-top: 50px;
   margin-left: 1230px;
   font-size: 50px;
