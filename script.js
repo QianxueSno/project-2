@@ -37,6 +37,22 @@ $(document).ready(function(){
 		});
 	});
 
+  $('#lightcomp').click(function(event) {
+		$("#content").css({
+			"--wdth": 40,
+			"--wght": 300,
+			"--XHGT": 0
+		});
+	});
+
+  $('#boldext').click(function(event) {
+		$("#content").css({
+			"--wdth": 40,
+			"--wght": 700,
+			"--XHGT": 0
+		});
+	});
+
 	$('#blackext').click(function(event) {
 		$("#content").css({
 			"--wdth": 150,
