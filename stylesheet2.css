@@ -92,6 +92,16 @@ input.axis-range{
 }
 
 
+  .intro {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 28px;
+  margin-top: 70px;
+  margin-left: 90px;
+  line-height: 1.4;
+  position: relative;
+  z-index: 12;
+}
+
 
 
 h2 {
