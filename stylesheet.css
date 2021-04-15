@@ -31,12 +31,12 @@ body{
 }
 
 section{
-	margin: 5rem 0;
+	margin: 1rem 0;
 }
 
 
 #intro{
-	font-size:30vw;
+	font-size:18vw;
 	line-height: 0.9;
 	text-align: center;
 }
