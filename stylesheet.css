@@ -140,7 +140,6 @@ p {
 	outline: none;
 	border: 2px solid black;
 	padding: 1em;
-  margin-left: 130px;
   width: 200px;
   text-decoration:
 }
@@ -154,4 +153,5 @@ a:hover, a:visited, a:link, a:active
 }
 nav {
   display: flex;
+    margin-left: 130px;
 }
