@@ -48,7 +48,7 @@ $(document).ready(function(){
 
 	$('#random').click(function(event) {
 		let randomwidth = randomNumber(40,150);
-		let randomwght = randomNumber(100,900);
+		let randomwght = randomNumber(100,1200);
 		let randomxhgt = randomNumber(0,100);
 
 		$("#content").css({
