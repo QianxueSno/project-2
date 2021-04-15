@@ -107,12 +107,12 @@ button:hover{
   z-index: 12;
 }
 
-  h1 {
-  font-family: 'Noto Sans', sans-serif;
+h1 {
+  font-family: 'newCiGX', sans-serif;
   margin-top: 593px;
   margin-left: 130px;
-  font-size: 50px;
-color:rgb(0, 107, 49);
+  font-size: 250px;
+	color: black;
 }
 
 h2 {
