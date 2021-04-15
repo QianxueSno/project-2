@@ -35,7 +35,7 @@ h1 {
 	color: white;
 	text-align: auto;
 	opacity: 0.1;
-		position: absolute;
+		position: fixed;
 }
 
 h2 {
