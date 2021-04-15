@@ -120,7 +120,7 @@ p {
 
 
 /* NAVIGATION */
-.ci{
+nav.ci{
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 300;
 	font-size: 1em;
@@ -134,7 +134,7 @@ p {
   width: 200px;
 	position:fixed;
 }
-.ci:hover{
+nav.ci:hover{
 	cursor: pointer;
 }
 
