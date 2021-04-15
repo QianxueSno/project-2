@@ -87,7 +87,7 @@ input.axis-range{
 }
 button{
 	font-family: 'newCiGX';
-	font-variation-settings: 'wght' 300,'wdth' 100, 'XHGT' 0;
+	font-variation-settings: 'wght' 300;
 	font-size: 1em;
 	background: grey;
 	border-radius: 50%;
