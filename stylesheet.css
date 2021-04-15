@@ -130,7 +130,7 @@ p {
 
 
 /* NAVIGATION */
-nav.misspt{
+.misspt{
   font-family: 'newCiGX';
   font-variation-settings: 'wght' 100;
   font-size: 1em;
@@ -141,7 +141,7 @@ nav.misspt{
   margin-left: 430px;
   width: 200px;
 }
-nav.misspt:hover{
+.misspt:hover{
   text-decoration: none;
   color: Chartreuse;
   cursor: pointer;
