@@ -130,37 +130,17 @@ p {
 
 
 /* NAVIGATION */
-  nav.dms {
+nav{
   font-family: 'newCiGX';
-  font-variation-settings: 'wght' 300;
-  margin-top: 30px;
-  margin-left: 1520px;
-  font-size: 50px;
-  position: fixed;
-  z-index: 30;
-  opacity:1;
-  line-height: 1;
-  width:230px;
-  height: 100px;
- 	background: grey;
- 	border-radius: 50%;
- 	outline: none;
- 	border: 2px solid black;
- 	padding: 1em;
+  font-variation-settings: 'wght' 100;
+  font-size: 1em;
+  background: grey;
+  border-radius: 50%;
+  outline: none;
+  border: 2px solid black;
+  padding: 1em;
 }
-nav div a{
-  opacity:0.6;
-  width: 400px;
-}
-.dms{
-  overflow: hidden;
-
-}
-.dms a {
-  float: right;
-  text-decoration: none;
-  font-size: 30px;
-   padding: 0;
-box-sizing: border-box;
-background-color: Gainsboro;
+nav:hover{
+  color: Chartreuse;
+  cursor: pointer;
 }
