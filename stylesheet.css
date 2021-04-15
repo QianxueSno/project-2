@@ -136,8 +136,8 @@ nav.misspt{
   font-size: 1em;
   background: grey;
   border-radius: 50%;
-  outline: none;
   border: 2px solid black;
+    text-decoration: none;
   padding: 0em;
   margin-top: 50px;
   margin-left: 430px;
