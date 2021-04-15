@@ -132,11 +132,13 @@ p {
 /* NAVIGATION */
 .misspt{
   font-family: 'newCiGX';
-  font-variation-settings: 'wght' 100;
-  font-size: 1em;
-  background: grey;
-  border-radius: 50%;
-  border: 2px solid black;
+	font-variation-settings: 'wght' 300;
+	font-size: 1em;
+	background: grey;
+	border-radius: 50%;
+	outline: none;
+	border: 2px solid black;
+	padding: 1em;
   margin-left: 130px;
   width: 200px;
 }
