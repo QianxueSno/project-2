@@ -1,3 +1,7 @@
+.lc {
+	position: absolute;
+
+}
 *{
 	margin: 0;
 	padding: 0;
@@ -157,8 +161,4 @@ a:hover, a:visited, a:link, a:active
 }
 nav {
   display: flex;
-}
-
-.lc {
-	position: absolute;
 }
