@@ -164,12 +164,3 @@ nav div a{
 box-sizing: border-box;
 background-color: Gainsboro;
 }
-.dms a:hover {
-  box-sizing: border-box;
-  background-color: Gainsboro;
-  background-color: rgba(249,249,249,0.6);
-  duration: 1s;
-}
-
-.famhis a:hover {
-}
