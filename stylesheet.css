@@ -89,14 +89,14 @@ button{
 	font-family: 'newCiGX';
 	font-variation-settings: 'wght' 300,'wdth' 100, 'XHGT' 0;
 	font-size: 1em;
-	background: white;
+	background: grey;
 	border-radius: 50%;
 	outline: none;
 	border: 2px solid black;
 	padding: 1em;
 }
 button:hover{
-	color: blue;
+	color: darkred;
 	cursor: pointer;
 }
   .intro {
