@@ -138,7 +138,7 @@ p {
 
 
 /* NAVIGATION */
-.misspt{
+.dms{
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 300;
 	font-size: 1em;
@@ -151,7 +151,7 @@ p {
   width: 200px;
   text-decoration:
 }
-.misspt:hover{
+.dms:hover{
 	cursor: pointer;
 }
 
