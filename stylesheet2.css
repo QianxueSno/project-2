@@ -120,7 +120,7 @@ p {
 
 
 /* NAVIGATION */
-.dms{
+.ci{
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 300;
 	font-size: 1em;
@@ -132,10 +132,9 @@ p {
 	top:50px;
   margin-left: 1330px;
   width: 200px;
-  text-decoration:
 	position:fixed;
 }
-.dms:hover{
+.ci:hover{
 	cursor: pointer;
 }
 
