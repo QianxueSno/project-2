@@ -142,6 +142,7 @@ p {
   opacity:1;
   line-height: 1;
   width:230px;
+  height: 100px;
  	background: grey;
  	border-radius: 50%;
  	outline: none;
