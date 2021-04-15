@@ -6,6 +6,15 @@
 	position: fixex;
 
 }
+
+
+.hi {
+	position: absolute;
+	display: block;
+	height: 100%;
+	position: fixex;
+
+}
 h1 {
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 900;
