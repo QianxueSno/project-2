@@ -3,7 +3,6 @@
 	position: absolute;
 	display: block;
 	height: 100%;
-	position: fixex;
 }
 .lc {
 	height: 100%;
@@ -13,6 +12,7 @@
 	hight: 50%;
 		width: 400px;
 		top: 600px;
+		position: relative;
 
 
 }
