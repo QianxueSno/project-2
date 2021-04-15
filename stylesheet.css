@@ -165,7 +165,7 @@ nav div a:hover{
   text-decoration: none;
   font-size: 30px;
   border: 0.1px solid blue;
-   border-radius: 50px;
+   border-radius: 100px;
 }
 .dms a:hover {
   background-color: rgba(249,249,249,0.6);
