@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Magmatic';
+  src: url('fonts/magmatic-vf.woff2') format('woff2-variations'),
+  url('fonts/magmatic-vf.woff') format('woff-variations'),
+  url('fonts/magmatic-vf.ttf') format('truetype-variations');
+}
+
+:root{
+	--wght: 300;
+	--wdth: 120;
+	--XHGT: 100;
+
+	--color: red;
+}
+body{
+	font-family: 'Magmatic', sans-serif;
+	font-style: normal;
+	font-size: 30px;
+	line-height: 1.5;
+	margin-bottom: 4rem;
+	color:  var(--color);
+}
+
+.magmatic, .magmatic *{
+	font-variation-settings: 'wght' var(--wght),'wdth' var(--wdth), 'XHGT' var(--XHGT);
+}
+
+section{
+	margin: 3rem 0;
+}
+
+
+#intro{
+	font-size:30vw;
+	line-height: 0.9;
+	text-align: center;
+}
+
+#content{
+	width: 33em;
+	height: 500px;
+	margin: auto;
+	--wght: 900;
+}
+
+#content p{
+	transition: font-variation-settings 400ms ease-in-out;
+}
+
+/*SLIDER STYLES*/
+
+#sliders ul{
+	margin: auto;
+}
+#sliders li{
+	display: flex;
+	justify-content: center;
+}
+
+.range-name, .min, .max{
+	width: 100px;
+}
+.min{
+	text-align: right;
+}
+.range-name::after{
+	content: ': ';
+}
+
+input.axis-range{
+	width: 580px;
+	margin: 0 20px;
+}
+
+
+/*BUTTON STYLES*/
+
+#buttons{
+	text-align: center;
+}
+button{
+	font-family: 'Magmatic', sans-serif;
+	font-variation-settings: 'wght' 300,'wdth' 100, 'XHGT' 0;
+	font-size: 1em;
+	background: white;
+	border-radius: 50%;
+	outline: none;
+	border: 2px solid black;
+	padding: 1em;
+}
+button:hover{
+	color: blue;
+	cursor: pointer;
+}
+  .intro {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 28px;
+  margin-top: 70px;
+  margin-left: 90px;
+  line-height: 1.4;
+  position: relative;
+  z-index: 12;
+}
+
+  h1 {
+    font-family: 'Noto Sans TC', sans-serif;
+  margin-top: 593px;
+  margin-left: 130px;
+  font-size: 50px;
+color:rgb(0, 107, 49);
+}
+
+h2 {
+font-family: 'Noto Sans TC', sans-serif;
+color:black;
+}
+
+
+
+/* NAVIGATION */
+  nav.dms {
+  font-family: 'Noto Sans TC', sans-serif;
+  margin-top: 50px;
+  margin-left: 1230px;
+  font-size: 50px;
+  top: 0;
+  position: fixed;
+  z-index: 30;
+  opacity:1;
+  line-height: 1;
+   width:530px;
+   background-color: rgba(249,249,249,0)
+}
+nav div a{
+  opacity:0.6;
+  width: 400px;
+}
+nav div a:hover{
+  opacity:1.5;
+  width: 200px;
+}
+
+.dms{
+  background-color: rgba(249,249,249,0.3);
+  opacity: 1;
+  overflow: hidden;
+
+}
+.dms a {
+  float: right;
+  color: blue;
+  text-align: center;
+  padding:42px 55px;
+  text-decoration: none;
+  font-size: 30px;
+  border: 0.1px solid blue;
+   border-radius: 50px;
+}
+.dms a:hover {
+  background-color: rgba(249,249,249,0.6);
+  color: blue;
+  opacity: 0.6;
+  font-size: 35px;
+  duration: 1s;
+}
+
+.famhis a:hover {
+  border: 0.1px solid blue;
+}
