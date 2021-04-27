@@ -149,6 +149,8 @@ body{
 	background-color:black;
 }
 
+.body:hover
+{	background-color:black;Gainsboro}
 .newCiGX, .newCiGX *{
 	font-variation-settings: 'wght' var(--wght);
 }
