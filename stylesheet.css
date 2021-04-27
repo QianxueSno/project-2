@@ -55,7 +55,7 @@ section{
 /*SLIDER STYLES*/
 
 #sliders ul{
-	margin: auto;
+	margin-left: 1000px;
 }
 #sliders li{
 	display: flex;
