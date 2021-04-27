@@ -26,9 +26,7 @@ body{
 	margin-bottom: 2rem;
 	color:  var(--color);
 }
-
 .part1{
-	position: static;
 
 }
 .lz{
@@ -190,10 +188,8 @@ font-size: 1.3em;
 	font-variation-settings: 'wght' var(--wght);
 }
 
-.part2{
+section{
 	margin: 4rem 0;
-	position: relative;
-	top:1000px;
 }
 
 #intro{
