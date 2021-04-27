@@ -58,7 +58,7 @@
 	position: absolute;
 }
 
-.eye a:hover{
+.eye:hover{
   animation: pulse 1s infinite;
   animation-timing-function: linear;
 @keyframes pulse {
