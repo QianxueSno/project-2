@@ -97,7 +97,7 @@ font-variation-settings: 'wght' 900;}
 	position: absolute;
 }
 
-.eye:hover{
+.eye a:hover{
   animation: pulse 1s infinite;
   animation-timing-function: linear;
 @keyframes pulse {
