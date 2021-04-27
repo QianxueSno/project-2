@@ -1,10 +1,5 @@
 
-body {
- background-image: url("image/poster.png");
- background-color: black;
- left: 90px;
- top: 7px;
-}
+
 .lz{
 	position: fixed;
 	display: block;
