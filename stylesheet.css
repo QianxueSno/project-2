@@ -59,6 +59,7 @@ section{
 }
 #sliders li{
 	display: flex;
+	margin: auto;
 }
 
 .range-name, .min, .max{
