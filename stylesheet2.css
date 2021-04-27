@@ -45,7 +45,7 @@
 
 .what{
   font-family: 'newCiGX';
-	font-variation-settings: 'wght' 90;
+	font-variation-settings: 'wght' 900;
 	font-size: 0.8em;
 	top:30px;
   margin-left: 970px;
@@ -56,12 +56,12 @@
 .what:hover
 {
 	font-family: 'newCiGX';
-font-variation-settings: 'wght' 900;
+font-variation-settings: 'wght' 90;
 font-size: 1.3em;}
 
 .are{
   font-family: 'newCiGX';
-	font-variation-settings: 'wght' 90;
+	font-variation-settings: 'wght' 900;
 	font-size: 0.8em;
 	top:80px;
   margin-left: 1320px;
@@ -72,13 +72,13 @@ font-size: 1.3em;}
 .are:hover
 {
 	font-family: 'newCiGX';
-font-variation-settings: 'wght' 900;
+font-variation-settings: 'wght' 90;
 font-size: 1.3em;}
 
 
 .the{
   font-family: 'newCiGX';
-	font-variation-settings: 'wght' 90;
+	font-variation-settings: 'wght' 900;
 	font-size: 0.8em;
 	top:300px;
   margin-left: 1530px;
@@ -89,12 +89,12 @@ font-size: 1.3em;}
 .the:hover
 {
 	font-family: 'newCiGX';
-font-variation-settings: 'wght' 900;
+font-variation-settings: 'wght' 90;
 font-size: 1.3em;}
 
 .missing{
   font-family: 'newCiGX';
-	font-variation-settings: 'wght' 90;
+	font-variation-settings: 'wght' 900;
 	font-size: 0.8em;
 	top:620px;
   margin-left: 1220px;
@@ -105,7 +105,7 @@ font-size: 1.3em;}
 .missing:hover
 {
 	font-family: 'newCiGX';
-font-variation-settings: 'wght' 900;
+font-variation-settings: 'wght' 90;
 font-size: 1.3em;}
 
 .eye{
@@ -123,7 +123,7 @@ font-size: 1.3em;}
 
 .parts{
   font-family: 'newCiGX';
-	font-variation-settings: 'wght' 90;
+	font-variation-settings: 'wght' 900;
 	font-size: 0.8em;
 	top:1100px;
   margin-left: 1480px;
@@ -135,7 +135,7 @@ font-size: 1.3em;}
 .parts:hover
 {
 	font-family: 'newCiGX';
-font-variation-settings: 'wght' 900;
+font-variation-settings: 'wght' 90;
 font-size: 1.3em;
 	top:1000px;}
 
