@@ -190,7 +190,7 @@ font-size: 1.3em;
 	font-variation-settings: 'wght' var(--wght);
 }
 
-.section2{
+.part{
 	margin: 4rem 0;
 	position: relative;
 }
