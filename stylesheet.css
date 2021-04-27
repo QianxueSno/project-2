@@ -55,11 +55,10 @@ section{
 /*SLIDER STYLES*/
 
 #sliders ul{
-	margin-left: 1000px;
+	margin-left: 800px;
 }
 #sliders li{
 	display: flex;
-	justify-content: center;
 }
 
 .range-name, .min, .max{
