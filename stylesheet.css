@@ -44,9 +44,7 @@ body{
 	top: 200px;
 }
 
-.man:hover{
-	filter: brightness(0%) saturate(0%);
-}
+
 
 .woman{
 	position: fixed;
