@@ -1,6 +1,6 @@
 
 .lz{
-	position: absolute;
+	position: fixed;
 	display: block;
   margin-left: auto;
 	left: 90px;
