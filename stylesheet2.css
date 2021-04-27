@@ -86,6 +86,13 @@ font-variation-settings: 'wght' 900;}
 }
 
 @font-face {
+  font-family: 'longlycheefontGX';
+  src: url('fonts/longlycheefontGX.woff2') format('woff2-variations'),
+  url('fonts/longlycheefontGX.woff') format('woff-variations'),
+  url('fonts/longlycheefontGX.ttf') format('truetype-variations');
+}
+
+@font-face {
   font-family: 'newCiGX';
   src: url('fonts/newCiGX.woff2') format('woff2-variations'),
   url('fonts/newCiGX.woff') format('woff-variations'),
