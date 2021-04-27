@@ -46,12 +46,12 @@ section{
 	width: 33em;
 	height: 500px;
 	margin-left: 900px;
-	font-size: 15px;
 
 }
 
 #content p{
 	transition: font-variation-settings 400ms ease-in-out;
+	font-size: 15px;
 }
 
 /*SLIDER STYLES*/
