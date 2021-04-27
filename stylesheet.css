@@ -27,6 +27,9 @@ body{
 	color:  var(--color);
 }
 
+.part1{
+
+}
 .lz{
 	position: fixed;
 	display: block;
@@ -186,7 +189,7 @@ font-size: 1.3em;
 	font-variation-settings: 'wght' var(--wght);
 }
 
-section{
+.section2{
 	margin: 4rem 0;
 }
 
