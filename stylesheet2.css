@@ -39,6 +39,10 @@
 	top: 185px;
 }
 
+.stranger:hover{
+	filter: brightness(0%) saturate(0%);
+}
+
 .what{
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 90;
