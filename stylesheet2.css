@@ -3,7 +3,8 @@
 	position: absolute;
 	display: block;
 	height: 100%;
-	align-items: center;
+	display: block;
+  margin-left: auto;
 }
 
 
