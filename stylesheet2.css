@@ -217,3 +217,9 @@ input.axis-range{
 
 
 /* NAVIGATION */
+p {
+	font-family: 'newCiGX';
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
