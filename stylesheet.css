@@ -63,7 +63,7 @@ section{
 }
 
 .range-name, .min, .max{
-	width: 100px;
+	width: 70px;
 }
 .min{
 	text-align: right;
