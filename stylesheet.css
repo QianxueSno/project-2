@@ -81,14 +81,14 @@ input.axis-range{
 /*BUTTON STYLES*/
 
 #buttons{
-	text-align: center;
+	text-align: right;
 }
 button{
 	font-family: 'newCiGX';
 	font-variation-settings: 'wght' 300;
 	font-size: 1em;
 	outline: none;
-	  color: white;
+	  color: white;s
 }
 button:hover{
 	color: Chartreuse;
