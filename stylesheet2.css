@@ -58,6 +58,11 @@
 	position: absolute;
 }
 
+.eye:hover{
+	font-family: 'newCiGX';
+	font-variation-settings: 'wght' 500;
+}
+
 .parts{
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 90;
