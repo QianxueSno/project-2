@@ -1,53 +1,12 @@
 
-.image {
+.lz{
 	position: absolute;
 	display: block;
 	height: 100%;
 }
-.lc {
-	height: 100%;
-}
 
-.hi{
-	hight: 50%;
-		width: 600px;
-		top: 600px;
-		position: relative;
-}
-.hi2{
-	hight: 50%;
-		width: 600px;
-		top: 500px;
-		position: relative;
-		left: 400px;
-}
-.hi3{
-	hight: 50%;
-		width: 800px;
-		top: 1000px;
-		position: relative;
-		left: 400px;
-}
-h1 {
-  font-family: 'newCiGX';
-	font-variation-settings: 'wght' 900;
-  font-size: 80px;
-	color: white;
-	text-align: auto;
-	opacity: 0.1;
-	top:140px;
-		position: absolute;
-}
 
-h2 {
-  font-family: 'newCiGX';
-	font-variation-settings: 'wght' 100;
-  font-size: 200px;
-	color: white;
-	position: absolute;
-	text-align: center;
-	opacity: 0.8;
-}
+
 .ci{
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 300;
@@ -75,16 +34,6 @@ nav {
   display: flex;
 }
 
-
-.1 {
-	position: relative;
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-	width: 40%;
-	position: fixex;
-
-}
 
 @font-face {
   font-family: 'newCiGX';
@@ -179,29 +128,3 @@ p {
 
 
 /* NAVIGATION */
-.ci{
-  font-family: 'newCiGX';
-	font-variation-settings: 'wght' 300;
-	font-size: 1em;
-	background: Gainsboro;
-	border-radius: 50%;
-	outline: none;
-	border: 2px solid black;
-	padding: 1em;
-	top:50px;
-  margin-left: 1430px;
-  width: 200px;
-  text-decoration:
-	position:fixed;
-}
-.ci:hover{
-	cursor: pointer;
-}
-
-a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
-}
-nav {
-  display: flex;
-}
