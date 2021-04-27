@@ -195,6 +195,7 @@ section{
 	line-height: 0.9;
 	text-align: center;
   position: relative;
+	left:20px;
 }
 
 #content{
