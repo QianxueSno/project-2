@@ -17,6 +17,7 @@
   width: 200px;
   text-decoration:
 	position:fixed;
+	z-index: 90;
 }
 .ci:hover{
 	cursor: pointer;
