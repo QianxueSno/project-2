@@ -253,7 +253,7 @@ section{
 	height: 500px;
 	top: 50px;
 	margin-left: 950px;
-	position: static;
+	position: relative;
 
 
 }
