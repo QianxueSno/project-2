@@ -49,6 +49,10 @@
 	position:fixed;
 }
 
+.missing:hover
+{font-family: 'newCiGX';
+font-variation-settings: 'wght' 300;}
+
 .eye{
 	display: block;
   margin-left: auto;
