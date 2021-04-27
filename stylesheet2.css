@@ -16,6 +16,9 @@
 	top: 200px;
 }
 
+.man a:hover{
+	filter: brightness(120%) saturate(120%);
+}
 
 .what{
   font-family: 'newCiGX';
