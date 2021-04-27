@@ -334,7 +334,8 @@ h2 {
   font-size: 20px;
   color: white;
   text-align: center;
-	width: 200px;
+	width: 500px;
+	margin-left: 500px;
 }
 
 p {
