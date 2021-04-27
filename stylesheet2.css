@@ -9,12 +9,8 @@
 
 .ci{
   font-family: 'newCiGX';
-	font-variation-settings: 'wght' 300;
+	font-variation-settings: 'wght' 100;
 	font-size: 1em;
-	background: Gainsboro;
-	border-radius: 50%;
-	outline: none;
-	border: 2px solid black;
 	padding: 1em;
 	top:50px;
   margin-left: 1330px;
