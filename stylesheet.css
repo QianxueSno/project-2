@@ -330,10 +330,11 @@ h1 {
 }
 
 h2 {
-font-family: 'newCiGX';
-font-size: 40px;
-color:white;
-text-align: center;
+	font-family: 'newCiGX';
+  font-size: 40px;
+  color: white;
+  text-align: center;
+	width: 200px;
 }
 
 p {
