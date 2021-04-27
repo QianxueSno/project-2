@@ -254,7 +254,7 @@ section{
   position: relative;
 }
 
-#content{
+.content{
 	width: 33em;
 	height: 500px;
 	top: 50px;
