@@ -119,8 +119,6 @@ font-size: 1.3em;}
 
 .eye:hover{
   animation: pulse 1s infinite;
-  animation-timing-function: linear;
-	width: 10%;
 }
 
 .parts{
