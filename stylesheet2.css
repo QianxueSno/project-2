@@ -30,6 +30,17 @@ nav {
   display: flex;
 }
 
+.ci1{
+  font-family: 'newCiGX';
+	font-variation-settings: 'wght' 90;
+	font-size: 0.8em;
+	padding: 1em;
+	top:80px;
+  margin-left: 1130px;
+  width: 200px;
+  text-decoration:
+	position:fixed;
+}
 
 @font-face {
   font-family: 'newCiGX';
