@@ -16,7 +16,7 @@
 	top: 200px;
 }
 
-.man a:hover{
+.man:hover{
 	filter: brightness(120%) saturate(120%);
 }
 
