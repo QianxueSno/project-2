@@ -264,7 +264,7 @@ section{
 
 }
 
-#content p{
+.content p{
 	transition: font-variation-settings 400ms ease-in-out;
 	font-size: 25px;
 	width: 700px;
