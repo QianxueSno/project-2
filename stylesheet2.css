@@ -9,7 +9,7 @@
 
 
 
-.ci{
+.what{
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 90;
 	font-size: 0.8em;
@@ -19,7 +19,7 @@
 	position:fixed;
 }
 
-.ci1{
+.are{
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 90;
 	font-size: 0.8em;
@@ -29,7 +29,7 @@
 	position:fixed;
 }
 
-.ci2{
+.the{
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 90;
 	font-size: 0.8em;
@@ -39,7 +39,7 @@
 	position:fixed;
 }
 
-.ci3{
+.missing{
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 90;
 	font-size: 0.8em;
@@ -48,18 +48,6 @@
   text-decoration:none;
 	position:fixed;
 }
-
-.ci4{
-  font-family: 'newCiGX';
-	font-variation-settings: 'wght' 90;
-	font-size: 0.8em;
-	top:780px;
-  margin-left: 1480px;
-  width: 200px;
-  text-decoration:none;
-	position:sticky;
-}
-
 
 .eye{
 	display: block;
@@ -70,7 +58,7 @@
 	position: absolute;
 }
 
-.ci5{
+.parts{
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 90;
 	font-size: 0.8em;
