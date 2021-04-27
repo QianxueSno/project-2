@@ -3,7 +3,7 @@
 	position: absolute;
 	display: block;
   margin-left: auto;
-	left: 40px;
+	left: 80px;
 }
 
 
@@ -13,7 +13,7 @@
 	font-variation-settings: 'wght' 90;
 	font-size: 0.8em;
 	top:30px;
-  margin-left: 900px;
+  margin-left: 940px;
   text-decoration:none;
 	position:fixed;
 }
@@ -24,7 +24,7 @@
 	font-variation-settings: 'wght' 90;
 	font-size: 0.8em;
 	top:80px;
-  margin-left: 1250px;
+  margin-left: 1290px;
   text-decoration:none;
 	position:fixed;
 }
@@ -34,7 +34,7 @@
 	font-variation-settings: 'wght' 90;
 	font-size: 0.8em;
 	top:300px;
-  margin-left: 1460px;
+  margin-left: 1500px;
   text-decoration:none;
 	position:fixed;
 }
@@ -44,7 +44,7 @@
 	font-variation-settings: 'wght' 90;
 	font-size: 0.8em;
 	top:620px;
-  margin-left: 1230px;
+  margin-left: 1270px;
   text-decoration:none;
 	position:fixed;
 }
@@ -54,7 +54,7 @@
 	font-variation-settings: 'wght' 90;
 	font-size: 0.8em;
 	top:780px;
-  margin-left: 1400px;
+  margin-left: 1440px;
   width: 200px;
   text-decoration:none;
 	position:fixed;
