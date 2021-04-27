@@ -53,6 +53,12 @@
 	position:fixed;
 }
 
+.what:hover
+{
+	font-family: 'newCiGX';
+font-variation-settings: 'wght' 900;
+font-size: 1.3em;}
+
 .are{
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 90;
@@ -63,6 +69,13 @@
 	position:fixed;
 }
 
+.are:hover
+{
+	font-family: 'newCiGX';
+font-variation-settings: 'wght' 900;
+font-size: 1.3em;}
+
+
 .the{
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 90;
@@ -72,6 +85,12 @@
   text-decoration:none;
 	position:fixed;
 }
+
+.the:hover
+{
+	font-family: 'newCiGX';
+font-variation-settings: 'wght' 900;
+font-size: 1.3em;}
 
 .missing{
   font-family: 'newCiGX';
@@ -119,6 +138,12 @@ font-size: 1.3em;}
   text-decoration:none;
 	position:absolute;
 }
+
+.part:hover
+{
+	font-family: 'newCiGX';
+font-variation-settings: 'wght' 900;
+font-size: 1.3em;}
 
 @font-face {
   font-family: 'longlycheefontGX';
