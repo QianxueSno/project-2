@@ -254,17 +254,17 @@ section{
   position: relative;
 }
 
-.content{
+#content{
 	width: 33em;
 	height: 500px;
 	top: 50px;
-	margin-left: 970px;
+	margin-left: 950px;
 	position: relative;
 
 
 }
 
-.content p{
+#content p{
 	transition: font-variation-settings 400ms ease-in-out;
 	font-size: 25px;
 	width: 700px;
@@ -381,4 +381,20 @@ nav {
   margin-left: auto;
 	left: 190px;
 	top: 297px;
+}
+
+.vi{
+	width: 33em;
+	height: 500px;
+	top: 50px;
+	margin-left: 970px;
+	position: relative;
+
+
+}
+
+.vi p{
+	transition: font-variation-settings 400ms ease-in-out;
+	font-size: 25px;
+	width: 700px;
 }
