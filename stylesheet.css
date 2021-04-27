@@ -331,10 +331,11 @@ h1 {
 
 h2 {
 	font-family: 'newCiGX';
+	font-variation-settings: 'wght' 90;
   font-size: 40px;
   color: white;
   text-align: center;
-	width: 500px;
+	width: 800px;
 	margin-left: 900px;
 }
 
