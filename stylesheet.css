@@ -190,3 +190,176 @@ font-size: 1.3em;
 section{
 	margin: 4rem 0;
 }
+
+#intro{
+	font-size:30vw;
+	line-height: 0.9;
+	text-align: center;
+  position: relative;
+}
+
+#content{
+	width: 33em;
+	height: 500px;
+	margin: auto;
+}
+
+#content p{
+	transition: font-variation-settings 400ms ease-in-out;
+}
+
+/*SLIDER STYLES*/
+
+#sliders ul{
+	margin: auto;
+}
+#sliders li{
+	display: flex;
+	justify-content: center;
+}
+
+.range-name, .min, .max{
+	width: 100px;
+}
+.min{
+	text-align: right;
+}
+.range-name::after{
+	content: '! ';
+}
+
+input.axis-range{
+	width: 580px;
+	margin: 0 20px;
+}
+
+.newCiGX, .newCiGX *{
+	font-variation-settings: 'wght' var(--wght);
+}
+
+section{
+	margin: 4rem 0;
+}
+
+#intro{
+	font-size:12vw;
+	line-height: 0.9;
+	margin-left: 1000px;
+  position: relative;
+}
+
+#content{
+	width: 33em;
+	height: 500px;
+	margin-left: 950px;
+	position: static;
+
+
+}
+
+#content p{
+	transition: font-variation-settings 400ms ease-in-out;
+	font-size: 25px;
+	width: 700px;
+}
+
+/*SLIDER STYLES*/
+
+#sliders ul{
+	margin-left: 800px;
+}
+#sliders li{
+	display: flex;
+	justify-content: center;
+}
+
+.range-name, .min, .max{
+	width: 100px;
+}
+.min{
+	text-align: right;
+}
+.range-name::after{
+	content: '! ';
+}
+
+input.axis-range{
+	width: 280px;
+	margin: 0 20px;
+}
+
+
+/*BUTTON STYLES*/
+
+#buttons{
+	margin-left: 985px;
+}
+button{
+	font-family: 'newCiGX';
+	font-variation-settings: 'wght' 300;
+	font-size: 1em;
+	outline: none;
+	  color: white;s
+}
+button:hover{
+	color: Chartreuse;
+	cursor: pointer;
+}
+  .intro {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 28px;
+  margin-top: 70px;
+  margin-left: 90px;
+  line-height: 1.4;
+  position: relative;
+  z-index: 12;
+}
+
+  h1 {
+  font-family: 'Noto Sans', sans-serif;
+  margin-top: 593px;
+  margin-left: 130px;
+  font-size: 50px;
+color:rgb(0, 107, 49);
+}
+
+h2 {
+font-family: 'newCiGX';
+font-size: 40px;
+color:white;
+text-align: center;
+}
+
+p {
+	font-family: 'newCiGX';
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+
+/* NAVIGATION */
+.misspt{
+  font-family: 'newCiGX';
+	font-variation-settings: 'wght' 300;
+	font-size: 1em;
+	background: Gainsboro;
+	border-radius: 50%;
+	outline: none;
+	border: 2px solid black;
+	padding: 1em;
+  margin-left: 130px;
+  width: 200px;
+  text-decoration:
+}
+.misspt:hover{
+	cursor: pointer;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+nav {
+  display: flex;
+}
