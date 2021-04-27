@@ -82,6 +82,7 @@ input.axis-range{
 
 #buttons{
 	text-align: right;
+	justify-content: center;
 }
 button{
 	font-family: 'newCiGX';
