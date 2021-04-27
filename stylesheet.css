@@ -26,6 +26,226 @@ body{
 	margin-bottom: 2rem;
 	color:  var(--color);
 }
+.lz{
+	position: fixed;
+	display: block;
+  margin-left: auto;
+	left: 90px;
+	top: 7px;
+}
+
+
+.man{
+	position: fixed;
+	display: block;
+  margin-left: auto;
+	left: 197px;
+	top: 200px;
+}
+
+.man:hover{
+	filter: brightness(0%) saturate(0%);
+}
+.woman{
+	position: fixed;
+	display: block;
+  margin-left: auto;
+	left: 480px;
+	top: 462px;
+}
+
+.woman:hover{
+	filter: brightness(0%) saturate(0%);
+}
+
+.stranger{
+	position: fixed;
+	display: block;
+  margin-left: auto;
+	left: 660px;
+	top: 185px;
+}
+
+.stranger:hover{
+	filter: brightness(0%) saturate(0%);
+}
+
+.what{
+  font-family: 'newCiGX';
+	font-variation-settings: 'wght' 90;
+	font-size: 0.8em;
+	top:30px;
+  margin-left: 970px;
+  text-decoration:none;
+	position:fixed;
+}
+
+.what:hover
+{
+	font-family: 'newCiGX';
+font-variation-settings: 'wght' 900;
+font-size: 1.3em;}
+
+.are{
+  font-family: 'newCiGX';
+	font-variation-settings: 'wght' 90;
+	font-size: 0.8em;
+	top:80px;
+  margin-left: 1320px;
+  text-decoration:none;
+	position:fixed;
+}
+
+.are:hover
+{
+	font-family: 'newCiGX';
+font-variation-settings: 'wght' 900;
+font-size: 1.3em;}
+
+
+.the{
+  font-family: 'newCiGX';
+	font-variation-settings: 'wght' 90;
+	font-size: 0.8em;
+	top:300px;
+  margin-left: 1530px;
+  text-decoration:none;
+	position:fixed;
+}
+
+.the:hover
+{
+	font-family: 'newCiGX';
+font-variation-settings: 'wght' 900;
+font-size: 1.3em;}
+
+.missing{
+  font-family: 'newCiGX';
+	font-variation-settings: 'wght' 90;
+	font-size: 0.8em;
+	top:620px;
+  margin-left: 1220px;
+  text-decoration:none;
+	position:fixed;
+}
+
+.missing:hover
+{
+	font-family: 'newCiGX';
+font-variation-settings: 'wght' 900;
+font-size: 1.3em;}
+
+.eye{
+	display: block;
+  margin-left: auto;
+	top: 920px;
+	width: 100px;
+	left: 1480px;
+	position: absolute;
+}
+
+.eye:hover{
+  animation: pulse 1s infinite;
+}
+
+.parts{
+  font-family: 'newCiGX';
+	font-variation-settings: 'wght' 90;
+	font-size: 0.8em;
+	top:1100px;
+  margin-left: 1480px;
+  width: 200px;
+  text-decoration:none;
+	position:absolute;
+}
+
+.parts:hover
+{
+	font-family: 'newCiGX';
+font-variation-settings: 'wght' 900;
+font-size: 1.3em;
+	top:1000px;}
+
+@font-face {
+  font-family: 'longlycheefontGX';
+  src: url('fonts/longlycheefontGX.woff2') format('woff2-variations'),
+  url('fonts/longlycheefontGX.woff') format('woff-variations'),
+  url('fonts/longlycheefontGX.ttf') format('truetype-variations');
+}
+
+@font-face {
+  font-family: 'newCiGX';
+  src: url('fonts/newCiGX.woff2') format('woff2-variations'),
+  url('fonts/newCiGX.woff') format('woff-variations'),
+  url('fonts/newCiGX.ttf') format('truetype-variations');
+}
+
+:root{
+	--wght:100;
+	--color: white;
+  --wght: 100;
+}
+body{
+	font-family: 'newCiGX';
+	font-style: regular;
+	font-size: 30px;
+	line-height: 1.5;
+  margin-top: 0;
+	margin-bottom: 2rem;
+	color:  var(--color);
+	background-color:black;
+}
+
+
+.newCiGX, .newCiGX *{
+	font-variation-settings: 'wght' var(--wght);
+}
+
+section{
+	margin: 4rem 0;
+}
+
+#intro{
+	font-size:30vw;
+	line-height: 0.9;
+	text-align: center;
+  position: relative;
+}
+
+#content{
+	width: 33em;
+	height: 500px;
+	margin: auto;
+}
+
+#content p{
+	transition: font-variation-settings 400ms ease-in-out;
+}
+
+/*SLIDER STYLES*/
+
+#sliders ul{
+	margin: auto;
+}
+#sliders li{
+	display: flex;
+	justify-content: center;
+}
+
+.range-name, .min, .max{
+	width: 100px;
+}
+.min{
+	text-align: right;
+}
+.range-name::after{
+	content: '! ';
+}
+
+input.axis-range{
+	width: 580px;
+	margin: 0 20px;
+}
 
 .newCiGX, .newCiGX *{
 	font-variation-settings: 'wght' var(--wght);
