@@ -26,6 +26,7 @@ body{
 	margin-bottom: 2rem;
 	color:  var(--color);
 }
+
 .lz{
 	position: fixed;
 	display: block;
@@ -166,12 +167,6 @@ font-variation-settings: 'wght' 900;
 font-size: 1.3em;
 	top:1000px;}
 
-@font-face {
-  font-family: 'longlycheefontGX';
-  src: url('fonts/longlycheefontGX.woff2') format('woff2-variations'),
-  url('fonts/longlycheefontGX.woff') format('woff-variations'),
-  url('fonts/longlycheefontGX.ttf') format('truetype-variations');
-}
 
 @font-face {
   font-family: 'newCiGX';
@@ -185,16 +180,7 @@ font-size: 1.3em;
 	--color: white;
   --wght: 100;
 }
-body{
-	font-family: 'newCiGX';
-	font-style: regular;
-	font-size: 30px;
-	line-height: 1.5;
-  margin-top: 0;
-	margin-bottom: 2rem;
-	color:  var(--color);
-	background-color:black;
-}
+
 
 
 .newCiGX, .newCiGX *{
