@@ -1,8 +1,6 @@
 
-.lz{
+.lz.center{
 	position: absolute;
-	display: block;
-	height: 100%;
 	display: block;
   margin-left: auto;
 }
