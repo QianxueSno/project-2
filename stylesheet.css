@@ -147,7 +147,9 @@ font-size: 1.3em;}
 }
 
 .eye:hover{
-  animation: pulse 1s infinite;
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
 }
 
 .parts{
