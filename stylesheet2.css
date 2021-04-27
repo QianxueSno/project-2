@@ -69,6 +69,16 @@
 	position: absolute;
 }
 
+.ci4{
+  font-family: 'newCiGX';
+	font-variation-settings: 'wght' 90;
+	font-size: 0.8em;
+	top:1080px;
+  margin-left: 1480px;
+  width: 200px;
+  text-decoration:none;
+	position:fixed;
+}
 
 @font-face {
   font-family: 'newCiGX';
