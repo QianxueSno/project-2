@@ -191,6 +191,7 @@ font-size: 1.3em;
 
 .section2{
 	margin: 4rem 0;
+	position: relative;
 }
 
 #intro{
