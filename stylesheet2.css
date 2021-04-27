@@ -18,17 +18,7 @@
   text-decoration:
 	position:fixed;
 }
-.ci:hover{
-	cursor: pointer;
-}
 
-a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
-}
-nav {
-  display: flex;
-}
 
 .ci1{
   font-family: 'newCiGX';
@@ -37,6 +27,18 @@ nav {
 	padding: 1em;
 	top:40px;
   margin-left: 1230px;
+  width: 200px;
+  text-decoration:
+	position:fixed;
+}
+
+.ci2{
+  font-family: 'newCiGX';
+	font-variation-settings: 'wght' 90;
+	font-size: 0.8em;
+	padding: 1em;
+	top:40px;
+  margin-left: 1530px;
   width: 200px;
   text-decoration:
 	position:fixed;
