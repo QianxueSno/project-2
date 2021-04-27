@@ -17,7 +17,7 @@
 }
 
 .man:hover{
-	filter: brightness(120%) saturate(120%);
+	filter: brightness(0%) saturate(0%);
 }
 
 .what{
