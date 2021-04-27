@@ -200,6 +200,9 @@ section{
 	left:-60px;
 }
 
+.bigletter{
+	font-size: 20px;
+}
 #content{
 	width: 33em;
 	height: 500px;
