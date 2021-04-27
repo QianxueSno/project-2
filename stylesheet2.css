@@ -50,7 +50,8 @@
 }
 
 .missing:hover
-{font-family: 'longlychi';
+{
+	font-family: 'longlycheefontGX';
 font-variation-settings: 'wght' 900;}
 
 .eye{
