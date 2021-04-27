@@ -8,6 +8,14 @@
 }
 
 
+.man{
+	position: fixed;
+	display: block;
+  margin-left: auto;
+	left: 90px;
+	top: 100px;
+}
+
 
 .what{
   font-family: 'newCiGX';
