@@ -136,7 +136,8 @@ font-size: 1.3em;}
 {
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 900;
-font-size: 1.3em;}
+font-size: 1.3em;
+	top:1000px;}
 
 @font-face {
   font-family: 'longlycheefontGX';
