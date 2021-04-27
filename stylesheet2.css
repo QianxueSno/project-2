@@ -217,3 +217,12 @@ input.axis-range{
 
 
 /* NAVIGATION */
+
+
+.zl{
+	position: fixed;
+	display: block;
+  margin-left: auto;
+	left: 90px;
+	top: 7px;
+}
