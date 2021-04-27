@@ -13,11 +13,10 @@
 	font-size: 1em;
 	padding: 1em;
 	top:50px;
-  margin-left: 330px;
+  margin-left: 530px;
   width: 200px;
   text-decoration:
 	position:fixed;
-	z-index: 90;
 }
 .ci:hover{
 	cursor: pointer;
