@@ -19,6 +19,13 @@
 .man:hover{
 	filter: brightness(0%) saturate(0%);
 }
+.woman{
+	position: fixed;
+	display: block;
+  margin-left: auto;
+	left: 597px;
+	top: 200px;
+}
 
 .what{
   font-family: 'newCiGX';
