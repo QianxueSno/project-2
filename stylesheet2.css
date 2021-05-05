@@ -67,7 +67,7 @@
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 90;
 font-size: 0.8em;
-margin-bottom:270px}
+margin-left:90px;}
 
 .are{
   font-family: 'newCiGX';
@@ -85,7 +85,7 @@ margin-bottom:270px}
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 90;
 font-size: 0.8em;
- margin-top:170px}
+ margin-top:170px;}
 
 
 .the{
@@ -103,7 +103,7 @@ font-size: 0.8em;
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 90;
 font-size: 0.8em;
-margin-left:370px}
+margin-left:370px;}
 
 .missing{
   font-family: 'newCiGX';
@@ -120,7 +120,8 @@ margin-left:370px}
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 90;
 font-size: 0.8em;
-right:290px}
+margin-left:370px;
+margin-top:300px;}
 
 .eye{
 	display: block;
@@ -152,7 +153,7 @@ right:290px}
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 90;
 font-size: 0.8em;
-margin-right:500px;
+margin-left:570px;
 }
 .q{
   font-family: 'newCiGX';
@@ -170,7 +171,7 @@ margin-right:500px;
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 90;
 font-size: 0.8em;
-margin-left:370px
+margin-left:370px;
 }
 
 @font-face {
