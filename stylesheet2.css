@@ -108,7 +108,7 @@ font-size: 0.8em;}
 	top:620px;
   margin-left: 1220px;
   text-decoration:none;
-	position:fixed;
+	position:absolute;
 }
 
 .missing:hover
@@ -123,7 +123,7 @@ font-size: 0.8em;}
 	top: 920px;
 	width: 100px;
 	left: 1480px;
-	position: absolute;
+	position:absolutes;
 }
 
 .eye:hover{
