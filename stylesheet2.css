@@ -120,9 +120,9 @@ font-size: 0.8em;}
 .eye{
 	display: block;
   margin-left: auto;
-	top: 890px;
+	top: 920px;
 	width: 100px;
-	left: 178px;
+	left: 148px;
 	position:relative;
 }
 
@@ -145,7 +145,8 @@ font-size: 0.8em;}
 {
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 90;
-font-size: 0.8em;}
+font-size: 0.8em;
+	top:1000px;}
 
 @font-face {
   font-family: 'newCiGX';
