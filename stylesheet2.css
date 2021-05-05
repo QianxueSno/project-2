@@ -85,7 +85,7 @@ margin-left:190px;}
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 90;
 font-size: 0.8em;
- margin-top:170px;}
+ margin-left:600px;}
 
 
 .the{
@@ -110,7 +110,7 @@ margin-left:370px;}
 	font-variation-settings: 'wght' 900;
 	font-size: 0.8em;
 	top:620px;
-  margin-left: 620px;
+  margin-left: 1220px;
   text-decoration:none;
 	position:absolute;
 }
@@ -120,8 +120,8 @@ margin-left:370px;}
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 90;
 font-size: 0.8em;
-margin-left:370px;
-margin-top:260px;}
+opacity: 0;
+margin-top:160px;}
 
 .eye{
 	display: block;
