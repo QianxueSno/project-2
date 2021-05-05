@@ -145,7 +145,7 @@ font-size: 0.8em;}
 		position:absolute;
 	}
 
-	.parts:hover
+	.q:hover
 	{
 		font-family: 'newCiGX';
 	font-variation-settings: 'wght' 90;
