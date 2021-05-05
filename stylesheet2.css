@@ -84,7 +84,7 @@ font-size: 0.8em;}
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 90;
 font-size: 0.8em;
- transform: rotate(360deg);}
+ margin-top:170px}
 
 
 .the{
@@ -101,7 +101,8 @@ font-size: 0.8em;
 {
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 90;
-font-size: 0.8em;}
+font-size: 0.8em;
+bottom:70px}
 
 .missing{
   font-family: 'newCiGX';
@@ -117,7 +118,8 @@ font-size: 0.8em;}
 {
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 90;
-font-size: 0.8em;}
+font-size: 0.8em;
+right:90px}
 
 .eye{
 	display: block;
@@ -149,7 +151,7 @@ font-size: 0.8em;}
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 90;
 font-size: 0.8em;
-margin-top:100px;
+margin-top:70px;
 }
 .q{
   font-family: 'newCiGX';
