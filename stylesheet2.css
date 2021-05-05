@@ -135,6 +135,24 @@ font-variation-settings: 'wght' 90;
 font-size: 0.8em;
 	top:1000px;}
 
+	.q{
+	  font-family: 'newCiGX';
+		font-variation-settings: 'wght' 900;
+		font-size: 0.8em;
+		top:1500px;
+	  margin-left: 1480px;
+	  width: 200px;
+	  text-decoration:none;
+		position:absolute;
+	}
+
+	.parts:hover
+	{
+		font-family: 'newCiGX';
+	font-variation-settings: 'wght' 90;
+	font-size: 0.8em;
+		top:1000px;}
+
 	.eye{
 		display: block;
 	  margin-left: auto;
