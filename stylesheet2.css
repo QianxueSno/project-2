@@ -66,7 +66,8 @@
 {
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 90;
-font-size: 0.8em;}
+font-size: 0.8em;
+margin-bottom:270px}
 
 .are{
   font-family: 'newCiGX';
@@ -102,7 +103,7 @@ font-size: 0.8em;
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 90;
 font-size: 0.8em;
-bottom:70px}
+margin-right:170px}
 
 .missing{
   font-family: 'newCiGX';
@@ -151,7 +152,8 @@ right:90px}
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 90;
 font-size: 0.8em;
-margin-top:70px;
+margin-top:70px
+right:200px;
 }
 .q{
   font-family: 'newCiGX';
