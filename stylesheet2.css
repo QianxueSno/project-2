@@ -76,13 +76,15 @@ font-size: 0.8em;}
   margin-left: 1320px;
   text-decoration:none;
 	position:absolute;
+	transition: transform 1.2s ease-in-out;
 }
 
 .are:hover
 {
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 90;
-font-size: 0.8em;}
+font-size: 0.8em;
+ transform: rotate(360deg);}
 
 
 .the{
@@ -128,7 +130,6 @@ font-size: 0.8em;}
 }
 
 .eye:hover{
-  animation: pulse 3s infinite;
 	 transform: rotate(360deg);s
 }
 
