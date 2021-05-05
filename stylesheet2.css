@@ -121,35 +121,37 @@ font-size: 0.8em;}
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 900;
 	font-size: 0.8em;
-	top:820px;
-  margin-left: 1220px;
+	top:1100px;
+  margin-left: 1480px;
+  width: 200px;
   text-decoration:none;
 	position:absolute;
 }
-
 
 .parts:hover
 {
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 90;
-font-size: 0.8em;}
+font-size: 0.8em;
+	top:1000px;}
 
-.q{
+	.1{
 	  font-family: 'newCiGX';
 		font-variation-settings: 'wght' 900;
 		font-size: 0.8em;
-		top:1500px;
+		top:1100px;
 	  margin-left: 1480px;
 	  width: 200px;
 	  text-decoration:none;
 		position:absolute;
 	}
 
-	.q:hover
+	.parts:hover
 	{
 		font-family: 'newCiGX';
 	font-variation-settings: 'wght' 90;
-	font-size: 0.8em;}
+	font-size: 0.8em;
+		top:1000px;}
 
 	.eye{
 		display: block;
