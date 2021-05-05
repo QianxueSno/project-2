@@ -75,7 +75,7 @@ font-size: 0.8em;}
 	top:80px;
   margin-left: 1320px;
   text-decoration:none;
-	position:fixed;
+	position:absolute;
 }
 
 .are:hover
@@ -92,7 +92,7 @@ font-size: 0.8em;}
 	top:300px;
   margin-left: 1530px;
   text-decoration:none;
-	position:fixed;
+	position:absolute;
 }
 
 .the:hover
