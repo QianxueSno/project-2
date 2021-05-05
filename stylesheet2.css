@@ -124,17 +124,19 @@ font-size: 0.8em;}
 	width: 100px;
 	left: 1048px;
 	position:fixed;
+	transition: transform 1.2s ease-in-out;
 }
 
 .eye:hover{
-  animation: pulse 1s infinite;
+  animation: pulse 3s infinite;
+	 transform: rotate(360deg);s
 }
 
 .parts{
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 900;
 	font-size: 0.8em;
-	top:1100px;
+	top:1000px;
   margin-left: 1480px;
   width: 200px;
   text-decoration:none;
@@ -146,6 +148,7 @@ font-size: 0.8em;}
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 90;
 font-size: 0.8em;
+margin-top:100px;
 }
 .q{
   font-family: 'newCiGX';
