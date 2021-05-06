@@ -18,7 +18,7 @@
 	--color: white;
   --wght: 100;
 }
-body{
+.s2{
 	font-family: 'newCiGX';
 	font-style: regular;
 	font-size: 30px;
@@ -27,151 +27,14 @@ body{
 	margin-bottom: 2rem;
 	color:  var(--color);
 }
-.part1{
 
 }
 .lz{
 	position: fixed;
-	display: block;
-  margin-left: auto;
-	left: 90px;
-	top: 97px;
+	display: block;g
+	margin-left: 90px;
+	margin-top: 97px;
 }
-
-
-.man{
-	position: fixed;
-	display: block;
-  margin-left: auto;
-	left: 197px;
-	top: 200px;
-}
-
-
-
-.woman{
-	position: fixed;
-	display: block;
-  margin-left: auto;
-	left: 480px;
-	top: 462px;
-}
-
-.woman:hover{
-	filter: brightness(0%) saturate(0%);
-}
-
-.stranger{
-	position: fixed;
-	display: block;
-  margin-left: auto;
-	left: 660px;
-	top: 185px;
-}
-
-.stranger:hover{
-	filter: brightness(0%) saturate(0%);
-}
-
-.what{
-  font-family: 'newCiGX';
-	font-variation-settings: 'wght' 90;
-	font-size: 0.8em;
-	top:30px;
-  margin-left: 970px;
-  text-decoration:none;
-	position:fixed;
-}
-
-.what:hover
-{
-	font-family: 'newCiGX';
-font-variation-settings: 'wght' 900;
-font-size: 1.3em;
-transition-delay: : 13s;}
-
-.are{
-  font-family: 'newCiGX';
-	font-variation-settings: 'wght' 90;
-	font-size: 0.8em;
-	top:80px;
-  margin-left: 1320px;
-  text-decoration:none;
-	position:fixed;
-}
-
-.are:hover
-{
-	font-family: 'newCiGX';
-font-variation-settings: 'wght' 900;
-font-size: 1.3em;}
-
-
-.the{
-  font-family: 'newCiGX';
-	font-variation-settings: 'wght' 90;
-	font-size: 0.8em;
-	top:300px;
-  margin-left: 1530px;
-  text-decoration:none;
-	position:fixed;
-}
-
-.the:hover
-{
-	font-family: 'newCiGX';
-font-variation-settings: 'wght' 900;
-font-size: 1.3em;}
-
-.missing{
-  font-family: 'newCiGX';
-	font-variation-settings: 'wght' 90;
-	font-size: 0.8em;
-	top:620px;
-  margin-left: 1220px;
-  text-decoration:none;
-	position:fixed;
-}
-
-.missing:hover
-{
-	font-family: 'newCiGX';
-font-variation-settings: 'wght' 900;
-font-size: 1.3em;}
-
-.eye{
-	display: block;
-  margin-left: auto;
-	top: 920px;
-	width: 100px;
-	left: 1480px;
-	position: fixed;
-}
-
-.eye:hover{
-  cursor: pointer;
-  animation-name: bounce;
-  -moz-animation-name: bounce;
-}
-
-.parts{
-  font-family: 'newCiGX';
-	font-variation-settings: 'wght' 90;
-	font-size: 0.8em;
-	top:1100px;
-  margin-left: 1480px;
-  width: 200px;
-  text-decoration:none;
-	position:absolute;
-}
-
-.parts:hover
-{
-	font-family: 'newCiGX';
-font-variation-settings: 'wght' 900;
-font-size: 1.3em;
-	top:1000px;}
-
 
 @font-face {
   font-family: 'newCiGX';
@@ -377,11 +240,10 @@ nav {
 
 .zl
 {
-	position: fixed;
-	display: block;
+	position: relative;
   margin-left: auto;
-	left: 190px;
-	top: 297px;
+	left: -690px;
+	top: 10px;
 }
 
 .vi{
@@ -398,4 +260,11 @@ nav {
 	transition: font-variation-settings 400ms ease-in-out;
 	font-size: 25px;
 	width: 700px;
+}
+
+.eye2{
+		transition: transform 1.2s ease-in-out;
+}
+.eye2:hover{
+	 margin-top:60px;
 }
