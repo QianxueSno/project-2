@@ -26,107 +26,6 @@ body{
 	top: 97px;
 }
 
-
-.man{
-	position: fixed;
-	display: block;
-  margin-left: auto;
-	left: 197px;
-	top: 200px;
-}
-
-
-
-.woman{
-	position: fixed;
-	display: block;
-  margin-left: auto;
-	left: 480px;
-	top: 462px;
-}
-
-.woman:hover{
-	filter: brightness(0%) saturate(0%);
-}
-
-.stranger{
-	position: fixed;
-	display: block;
-  margin-left: auto;
-	left: 660px;
-	top: 185px;
-}
-
-.stranger:hover{
-	filter: brightness(0%) saturate(0%);
-}
-
-.what{
-  font-family: 'newCiGX';
-	font-variation-settings: 'wght' 90;
-	font-size: 0.8em;
-	top:30px;
-  margin-left: 970px;
-  text-decoration:none;
-	position:fixed;
-}
-
-.what:hover
-{
-	font-family: 'newCiGX';
-font-variation-settings: 'wght' 900;
-font-size: 1.3em;
-transition-delay: : 13s;}
-
-.are{
-  font-family: 'newCiGX';
-	font-variation-settings: 'wght' 90;
-	font-size: 0.8em;
-	top:80px;
-  margin-left: 1320px;
-  text-decoration:none;
-	position:fixed;
-}
-
-.are:hover
-{
-	font-family: 'newCiGX';
-font-variation-settings: 'wght' 900;
-font-size: 1.3em;}
-
-
-.the{
-  font-family: 'newCiGX';
-	font-variation-settings: 'wght' 90;
-	font-size: 0.8em;
-	top:300px;
-  margin-left: 1530px;
-  text-decoration:none;
-	position:fixed;
-}
-
-.the:hover
-{
-	font-family: 'newCiGX';
-font-variation-settings: 'wght' 900;
-font-size: 1.3em;}
-
-.missing{
-  font-family: 'newCiGX';
-	font-variation-settings: 'wght' 90;
-	font-size: 0.8em;
-	top:620px;
-  margin-left: 1220px;
-  text-decoration:none;
-	position:fixed;
-}
-
-.missing:hover
-{
-	font-family: 'newCiGX';
-font-variation-settings: 'wght' 900;
-font-size: 1.3em;}
-
 .eye{
 	display: block;
   margin-left: auto;
@@ -141,24 +40,6 @@ font-size: 1.3em;}
 .eye:hover{
 		 transform: rotate(360deg);
 }
-
-.parts{
-  font-family: 'newCiGX';
-	font-variation-settings: 'wght' 90;
-	font-size: 0.8em;
-	top:1100px;
-  margin-left: 1480px;
-  width: 200px;
-  text-decoration:none;
-	position:absolute;
-}
-
-.parts:hover
-{
-	font-family: 'newCiGX';
-font-variation-settings: 'wght' 900;
-font-size: 1.3em;
-	top:1000px;}
 
 
 @font-face {
@@ -226,8 +107,12 @@ section{
 margin-right:70px;
 text-align: right;
 }
+.max{
+margin-left:10px;
+text-align: right;
+}
 .range-name, .min, .max{
-	width: 100px;
+	width: 120px;
 
 }
 .range-name::after{
