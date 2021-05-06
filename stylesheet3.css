@@ -1,0 +1,56 @@
+body{
+	font-family: 'newCiGX';
+	font-style: regular;
+	font-size: 30px;
+	line-height: 1.5;
+  margin-top: 0;
+	margin-bottom: 2rem;
+	color:  var(--color);
+	background-color: black;
+	background-image: linear-gradient(to right, black, black, black, black, black, white);
+}
+
+.eye{
+	display: block;
+  margin-left: auto;
+	top: 1920px;
+	left: 1048px;
+	position:fixed;
+	transition: transform 1.2s ease-in-out;
+	z-index: 100;
+}
+
+.eye:hover{
+	 transform: rotate(360deg);s
+}
+
+@font-face {
+  font-family: 'newCiGX';
+  src: url('fonts/newCiGX.woff2') format('woff2-variations'),
+  url('fonts/newCiGX.woff') format('woff-variations'),
+  url('fonts/newCiGX.ttf') format('truetype-variations');
+}
+
+:root{
+	--wght:100;
+	--color: white;
+  --wght: 100;
+}
+
+
+
+.newCiGX, .newCiGX *{
+	font-variation-settings: 'wght' var(--wght);
+}
+
+.question{
+	margin-left: 50px;
+}
+p {
+	font-family: 'newCiGX';
+  font-size: 28px;
+  color: white;
+  text-align: left;
+	right: 20px;
+
+}

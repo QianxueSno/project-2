@@ -296,8 +296,3 @@ p {
 .m:hover {
 	width: 150px;
 }
-
-.map{
-	background-color: black;
-	background-image: linear-gradient(black, white);
-}
