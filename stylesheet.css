@@ -399,3 +399,21 @@ nav {
 	font-size: 25px;
 	width: 700px;
 }
+
+
+
+
+.eye2{
+	display: block;
+  margin-left: auto;
+	top: 560px;
+	width: 900px;
+	left: 0px;
+	position:fixed;
+	transition: transform 1.2s ease-in-out;
+	z-index: 100;
+}
+
+.eye2:hover{
+	 transform: rotate(360deg);s
+}
