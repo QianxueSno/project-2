@@ -128,8 +128,8 @@ input.axis-range{
 	margin-top:20px;
 	-webkit-appearance: none;
 	height: 16px;
-	background: red;
-	opacity: 0.3;
+	background: Chartreuse;
+	opacity: 0.9;
 	-webkit-transition: .2s;
 	transition: opacity .2s;
 }
