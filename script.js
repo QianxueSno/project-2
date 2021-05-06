@@ -100,11 +100,4 @@ $(document).ready(function(){
 // Function to generate random number
 function randomNumber(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
-
-		//
-		<script>
-		$(document).ready(function(){
-			$('[data-toggle="tooltip"]').tooltip();
-		});
-		</script>
 }
