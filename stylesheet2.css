@@ -268,10 +268,36 @@ p {
 	width: 100px;
 	margin-top:1600px;
 	margin-left: 1500px;
+	transition: transform 1s ease-in-out;
+
 }
 
+.nc:hover {
+ transform: rotate(90deg);
+}
 .c {
 	width: 120px;
 	margin-top:160px;
 	margin-left: 900px;
+}
+
+.c:hover {
+	width: 180px;
+}
+
+.m {
+	width: 100px;
+	margin-top:210px;
+	margin-left: 1300px;
+	opacity: 1;
+		transition: transform 1s ease-in-out;
+}
+
+.m:hover {
+	width: 150px;
+}
+
+.map{
+	background-color: black;
+	background-image: linear-gradient(black, white);
 }
