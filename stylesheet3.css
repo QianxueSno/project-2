@@ -5,7 +5,7 @@
 	line-height: 1.5;
   margin-top: 0;
 	margin-bottom: 2rem;
-	background-image: linear-gradient(to right, black, black, black, black, black, white);
+
 }
 body{
 	font-family: 'newCiGX';
@@ -16,14 +16,16 @@ body{
 	margin-bottom: 2rem;
 	color:  var(--color);
 	background-color: black;
-	
+	background-image: linear-gradient(to right, black, black, black, black, black, white);
+
 }
 
 .eye{
-	display: block;
+	float: right;
+	width: 100px;
   margin-left: auto;
-	top: 1920px;
-	left: 1048px;
+	top: 920px;
+	left: 1548px;
 	position:fixed;
 	transition: transform 1.2s ease-in-out;
 	z-index: 100;
@@ -54,6 +56,7 @@ body{
 
 .question{
 	margin-left: 50px;
+	position: fixed;
 }
 
 p {
@@ -64,19 +67,26 @@ p {
 	right: 20px;
 }
 
-.map{
-	background-color: lightgreen;
-	width: 50%;
-}
-
 .globe{
+	width: 40%;
 	opacity: 0;
 	transition: transform 2s ease-in-out;
 	margin: auto;
-	left: 200px;
-	opacity:1
+	top: 200px;
+	left: 500px;
+	opacity:0;
+	position:fixed;
 
 }
 .globe:hover{
 	opacity: 1;
+}
+
+.fmap{
+	width: 200px;
+	margin: auto;
+}
+
+.fmap:hover{
+	width: 2200px;
 }
