@@ -182,7 +182,7 @@ margin-left:390px;;
 	font-family: 'newCiGX';
 font-variation-settings: 'wght' 90;
 font-size: 0.8em;
-margin-left:370px
+margin-left:390px
 }
 
 @font-face {
@@ -376,4 +376,131 @@ p {
 
 .eye5:hover{
 	 opacity:1;
+}
+
+
+
+.no{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.no .notext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  font-size: 18px;
+	color: white;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: 680px;
+	top:1720px;
+  opacity: 0;
+  transition: opacity 1.7s;
+
+}
+
+.no .notext::after {
+
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: 105px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.no :hover .notext{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.city{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.city .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  font-size: 18px;
+	color: chartreuse;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: 590px;
+	top:100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+
+}
+
+.city .tooltiptext::after {
+
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: 105px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.city:hover .tooltiptext{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.cave{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.cave .cavetext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  font-size: 18px;
+	color: brown;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: 390px;
+	margin-top: 200px;
+	top:-90px;
+  opacity: 0;
+  transition: opacity 0.3s;
+
+}
+
+.cave .cavetext::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.cave:hover .cavetext{
+  visibility: visible;
+  opacity: 1;
 }
