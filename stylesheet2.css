@@ -296,3 +296,84 @@ p {
 .m:hover {
 	 transform: rotate(180deg);
 }
+
+.eye1{
+	display: block;
+  margin-left: auto;
+	top: 420px;
+	width: 100px;
+	left: 1048px;
+	position:fixed;
+	transition: transform 1.2s ease-in-out;
+	z-index: 100;
+	opacity: 0;
+}
+
+.eye1:hover{
+	 opacity:1;
+}
+
+.eye2{
+	display: block;
+  margin-left: auto;
+	top: 220px;
+	width: 100px;
+	left: 348px;
+	position:fixed;
+	transition: transform 1.2s ease-in-out;
+	z-index: 100;
+	opacity: 0;
+}
+
+.eye2:hover{
+	 opacity:1;
+}
+
+
+.eye3{
+	display: block;
+  margin-left: auto;
+	top: 20px;
+	width: 100px;
+	left: 148px;
+	position:fixed;
+	transition: transform 1.2s ease-in-out;
+	z-index: 100;
+	opacity: 0;
+}
+
+.eye3:hover{
+	 opacity:1;
+}
+
+.eye4{
+	display: block;
+  margin-left: auto;
+	top: 200px;
+	width: 100px;
+	left: 948px;
+	position:fixed;
+	transition: transform 1.2s ease-in-out;
+	z-index: 100;
+	opacity: 0;
+}
+
+.eye4:hover{
+	 opacity:1;
+}
+
+.eye5{
+	display: block;
+  margin-left: auto;
+	top: 700px;
+	width: 100px;
+	left: 1348px;
+	position:fixed;
+	transition: transform 1.2s ease-in-out;
+	z-index: 100;
+	opacity: 0;
+}
+
+.eye5:hover{
+	 opacity:1;
+}

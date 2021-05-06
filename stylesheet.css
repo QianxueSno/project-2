@@ -75,7 +75,7 @@ section{
 	width: 33em;
 	height: 500px;
 	top: 50px;
-	margin-left: 950px;
+	margin-left: 930px;
 	position: relative;
 
 
@@ -85,6 +85,7 @@ section{
 	transition: font-variation-settings 400ms ease-in-out;
 	font-size: 25px;
 	width: 700px;
+
 }
 
 #content p:hover{
@@ -104,11 +105,11 @@ section{
 	justify-content: center;
 }
 .min{
-margin-right:70px;
+margin-right:60px;
 text-align: right;
 }
 .max{
-margin-left:10px;
+margin-left:5px;
 text-align: right;
 }
 .range-name, .min, .max{
@@ -122,8 +123,9 @@ text-align: right;
 input.axis-range{
 	width: 300px;
 	margin-bottom: 20px;
-	top:200px;
-	margin: 0 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top:20px;
 	-webkit-appearance: none;
 	height: 16px;
 	background: red;
@@ -152,7 +154,7 @@ input.axis-range::-moz-range-thumb {
 /*BUTTON STYLES*/
 
 #buttons{
-	margin-left: 985px;
+	margin-left: 910px;
 }
 button{
 	font-family: 'newCiGX';
