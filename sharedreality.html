@@ -9,6 +9,8 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="script.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 
 
@@ -17,6 +19,11 @@
     <body>
 
 
+
+<a href="index2.html"><img class="eye" src="image/eye.png"></a>
+<section class="buttons">
+    <input type="button" id="Out" value="zoom out"/>
+  <input type="button" id="In" value="zoom in"/>  </section>
 
 
   <secton class="map">
@@ -33,18 +40,25 @@
     </section>
 
     <br>
-    <section class="buttons">
-        <input type="button" id="Out" value="zoom out"/>
-      <input type="button" id="In" value="zoom in"/>  </section>
-  <a href="index2.html"><img class="globe" src="image/globe.png" width="800px"></a>
-  <a href="index2.html"><img class="sz" src="image/sz.png" width="300px"></a>
-    <a href="index2.html"><img class="bsz" src="image/baishizhou.png" width="300px"></a>
+    <div class="window" style="transform: translatey(3%); padding: 10px;">
+      <div class="draggable ui-draggable ui-draggable-handle" height:100%; position:relative;>
+
+
+                <div class="gg"><a href="index2.html"><img class="globe" src="image/globe.png"><span class="texttext">the world</span></a></div>
+                <div class="ss">  <a href="index2.html"><img class="sz" src="image/sz.png"><span class="stext">shenzhen</span></a></div>
+                  <div class="bb">  <a href="index2.html"><img class="bsz" src="image/bsz.png"><span class="btext">baishizhou</span></a></div>
+                  <div class="www">   <a href="index2.html"><img class="ww" src="image/ww.png"><span class="wtext">window of the world</span></a></div>
+
+
+
+  </div></div>
 
 
 
 
 </section>
-  <a href="index2.html"><img class="eye" src="image/eye.png"></a>
+
+
 
 
 
