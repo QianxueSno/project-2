@@ -63,42 +63,44 @@ body{
 section{
 	margin: 4rem 0;
 }
-
+#bigletter{
+	height: 500px;
+	margin-left: -50px;
+	position: relative;
+	line-height: 200px;
+	color:white;
+}
 #intro{
 	font-size:12vw;
 	line-height: 0.9;
-	margin-left: 1000px;
+	margin-left: 100px;
   position: relative;
 }
 
 #content{
-	width: 33em;
-	height: 500px;
+	width: 40em;
 	top: 50px;
-	margin-left: 930px;
+	margin-left: 270px;
 	position: relative;
-
-
 }
 
 #content p{
 	transition: font-variation-settings 400ms ease-in-out;
-	font-size: 25px;
-	width: 700px;
+	font-size: 32px;
 
 }
 
 #content p:hover{
 	transition: font-variation-settings 400ms ease-in-out;
-	font-size: 28px;
-	width: 700px;
+	font-size: 32px;
 }
 
 
 /*SLIDER STYLES*/
 
 .sliders ul{
-	margin-left: 700px;
+	margin-left: -50px;
+	margin-top: 240px;
 }
 .sliders li{
 	display: flex;
@@ -154,7 +156,8 @@ input.axis-range::-moz-range-thumb {
 /*BUTTON STYLES*/
 
 #buttons{
-	margin-left: 910px;
+	margin-left: 570px;
+	margin-top: 100px;
 }
 button{
 	font-family: 'newCiGX';
@@ -195,9 +198,10 @@ h2 {
 
 p {
 	font-family: 'newCiGX';
-  font-size: 25px;
+  font-size: 32px;
   color: white;
   text-align: center;
+	line-height: 45px;
 }
 
 
@@ -269,4 +273,149 @@ nav {
 
 .eye2:hover{
 	 transform: rotate(360deg);
+}
+
+
+
+.nite{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.nite .nitetext {
+  visibility: hidden;
+  font-size: 22px;
+	color: white;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -30px;
+	margin-top: 640px;
+	top:-90px;
+  opacity: 0;
+  transition: opacity 0.3s;
+	line-height: 30px;
+	width: 900px;
+
+}
+
+.nite .nitetext::after {
+  position: absolute;
+  top: 100%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.nite:hover .nitetext{
+  visibility: visible;
+  opacity: 1;
+	color: Chartreuse
+}
+
+.poster{
+	margin-left:290px;
+}
+
+
+.nite2{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.nite2 .nitetext2 {
+  visibility: hidden;
+  font-size: 22px;
+	color: white;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -305px;
+	margin-top: 640px;
+	top:110px;
+  opacity: 0;
+  transition: opacity 0.3s;
+	line-height: 30px;
+	width: 900px;
+
+}
+
+.nite2 .nitetext2::after {
+  position: absolute;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.nite2:hover .nitetext2{
+  visibility: visible;
+  opacity: 1;
+	color: Chartreuse
+}
+
+.cave{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.cave .cavetext {
+  visibility: hidden;
+  width: 520px;
+  background-color: black;
+  font-size: 18px;
+	color: white;
+  text-align: left;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: 1150px;
+	margin-top: 180px;
+	top:-90px;
+  opacity: 0;
+  transition: opacity 0.3s;
+
+}
+
+.cave .cavetext::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.cave:hover .cavetext{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.c {
+	width: 100px;
+	margin-top:-50px;
+	margin-left: 1500px;
+	transition: transform 1s ease-in-out;
+	position:absolute;
+}
+
+.c:hover {
+ transform: rotate(90deg);
+}
+
+.cavestory{
+	margin-top:60px;
+	margin-left:420px;
 }
