@@ -209,7 +209,7 @@ margin-left:390px
 #intro{
 	font-size:34px;
 	line-height: 0.9;
-	text-align: center;
+	margin:auto;
   position: relative;
 	margin: 190px;
 	width: 290px;
@@ -261,7 +261,7 @@ p {
 	font-family: 'newCiGX';
   font-size: 40px;
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 .nc {
@@ -333,7 +333,7 @@ p {
 .eye3{
 	display: block;
   margin-left: auto;
-	top: 20px;
+	top: 35px;
 	width: 100px;
 	left: 148px;
 	position:fixed;
@@ -346,12 +346,14 @@ p {
 	 opacity:1;
 }
 
+
+
 .eye4{
 	display: block;
   margin-left: auto;
-	top: 200px;
+	top: 180px;
 	width: 100px;
-	left: 948px;
+	left: 828px;
 	position:fixed;
 	transition: transform 1.2s ease-in-out;
 	z-index: 100;
@@ -365,9 +367,9 @@ p {
 .eye5{
 	display: block;
   margin-left: auto;
-	top: 700px;
+	top: 689px;
 	width: 100px;
-	left: 1348px;
+	left: 998px;
 	position:fixed;
 	transition: transform 1.2s ease-in-out;
 	z-index: 100;
@@ -378,8 +380,135 @@ p {
 	 opacity:1;
 }
 
+.eye6{
+	display: block;
+  margin-left: auto;
+	top: 720px;
+	width: 100px;
+	left: 1300px;
+	position:fixed;
+	transition: transform 1.2s ease-in-out;
+	z-index: 100;
+	opacity: 0;
+}
+
+.eye6:hover{
+	 opacity:1;
+}
 
 
+.eye7{
+	display: block;
+  margin-left: auto;
+	top: 200px;
+	width: 100px;
+	left: 1598px;
+	position:fixed;
+	transition: transform 1.2s ease-in-out;
+	z-index: 100;
+	opacity: 0;
+}
+
+.eye7:hover{
+	 opacity:1;
+}
+
+.eye8{
+	display: block;
+  margin-left: auto;
+	top: 827px;
+	width: 100px;
+	left: 1548px;
+	position:fixed;
+	transition: transform 1.2s ease-in-out;
+	z-index: 100;
+	opacity: 0;
+}
+
+.eye8:hover{
+	 opacity:1;
+}
+
+.eye9{
+	display: block;
+  margin-left: auto;
+	top: 500px;
+	width: 100px;
+	left: 1500px;
+	position:fixed;
+	transition: transform 1.2s ease-in-out;
+	z-index: 100;
+	opacity: 0;
+}
+
+.eye9:hover{
+	 opacity:1;
+}
+
+.eye11{
+	display: block;
+  margin-left: auto;
+	top: 805px;
+	width: 100px;
+	margin-left: 1658px;
+	position:fixed;
+	transition: transform 1.2s ease-in-out;
+	z-index: 100;
+	opacity: 0;
+}
+
+.eye11:hover{
+	 opacity:1;
+}
+
+.eye10{
+	display: block;
+  margin-left: auto;
+	top: 25px;
+	width: 100px;
+	margin-left: 1458px;
+	position:fixed;
+	transition: transform 1.2s ease-in-out;
+	z-index: 100;
+	opacity: 0;
+}
+
+.eye10:hover{
+	 opacity:1;
+}
+
+
+.eye12{
+	display: block;
+  margin-left: auto;
+	top: 525px;
+	width: 100px;
+	margin-left: 1238px;
+	position:fixed;
+	transition: transform 1.2s ease-in-out;
+	z-index: 100;
+	opacity: 0;
+}
+
+.eye12:hover{
+	 opacity:1;
+}
+
+.eye13{
+	display: block;
+  margin-left: auto;
+	top: 725px;
+	width: 100px;
+	margin-left: 598px;
+	position:fixed;
+	transition: transform 1.2s ease-in-out;
+	z-index: 100;
+	opacity: 0;
+}
+
+.eye13:hover{
+	 opacity:1;
+}
 .no{
   position: relative;
   display: inline-block;
@@ -501,6 +630,49 @@ p {
 }
 
 .cave:hover .cavetext{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+.ln{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.ln .lltext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  font-size: 18px;
+	color: white;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: 10px;
+	margin-top: 20px;
+	top:-90px;
+  opacity: 0;
+  transition: opacity 0.3s;
+
+}
+
+.ln .lntext::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.ln:hover .lntext{
   visibility: visible;
   opacity: 1;
 }
