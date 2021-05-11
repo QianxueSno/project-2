@@ -6,27 +6,50 @@
        	<meta name="viewport" content="width=device-width, initial-scale=1">
        	<link rel="stylesheet" type="text/css" href="stylesheet3.css">
 
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <script src="script.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-
-
+        <!-- <script src="script.js"></script> -->
     </head>
+    <script>
+        $( function() {
 
+
+            $('#out').click(function(){
+
+              let scale = getScale();
+              console.log('zoom out', scale);
+              let newscale = scale * .9;
+
+              $('#window').css('transform', 'scale('+ newscale +')');
+
+            });
+
+
+            $('#in').click(function(){
+              console.log('zoom in');
+              let scale = getScale();
+
+              let newscale = scale * 1.1;
+
+              $('#window').css('transform', 'scale('+ newscale +')');
+
+            });
+
+        } );
+
+        function getScale(){
+          var element = document.querySelector('#window');
+          return element.getBoundingClientRect().width / element.offsetWidth;
+        }
+        </script>
     <body>
 
 
 
 <a href="index2.html"><img class="eye" src="image/eye.png"></a>
-<section class="buttons">
-    <input type="button" id="Out" value="zoom out"/>
-  <input type="button" id="In" value="zoom in"/>  </section>
 
-
-  <secton class="map">
 
     <section class="question">
 
@@ -40,23 +63,27 @@
     </section>
 
     <br>
-    <div class="window" style="transform: translatey(3%); padding: 10px;">
-      <div class="draggable ui-draggable ui-draggable-handle" height:100%; position:relative;>
+    <section class="justify">
+
+      <section class="buttons">
+        <input type="button" id="out" value="zoom out"/>
+        <input type="button" id="in" value="zoom in"/>
+      </section>
+
+      <div class="center">
+
+        <div class="square" id="window">
+            <div class="gg"><a href="#"><img class="globe" src="image/globe.svg"><span class="texttext">the world</span></a></div>
+            <div class="ss"><a href="#"><img class="sz" src="image/sz.svg"><span class="stext">shenzhen</span></a></div>
+            <div class="bb"><a href="#"><img class="bsz" src="image/bsz.svg"><span class="btext">baishizhou</span></a></div>
+            <div class="www"><a href="#"><img class="ww" src="image/ww.png"><span class="wtext">window of the world</span></a></div>
+            <div class="parkk"><a href="#"><img class="park" src="image/park.svg"><span class="ptext">the lychee park</span></a></div>
+        </div>
+
+      </div>
 
 
-                <div class="gg"><a href="index2.html"><img class="globe" src="image/globe.png"><span class="texttext">the world</span></a></div>
-                <div class="ss">  <a href="index2.html"><img class="sz" src="image/sz.png"><span class="stext">shenzhen</span></a></div>
-                  <div class="bb">  <a href="index2.html"><img class="bsz" src="image/bsz.png"><span class="btext">baishizhou</span></a></div>
-                  <div class="www">   <a href="index2.html"><img class="ww" src="image/ww.png"><span class="wtext">window of the world</span></a></div>
-
-
-
-  </div></div>
-
-
-
-
-</section>
+    </section>
 
 
 

@@ -297,6 +297,18 @@ p {
 	 transform: rotate(180deg);
 }
 
+.p {
+	width: 89px;
+	margin-top:240px;
+	margin-left: 1100px;
+	opacity: 1;
+		transition: transform 1s ease-in-out;
+}
+
+.p:hover {
+	 transform: rotate(20deg);
+}
+
 .eye1{
 	display: block;
   margin-left: auto;
@@ -673,6 +685,48 @@ p {
 }
 
 .ln:hover .lntext{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.pz{
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.pz .pztext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  font-size: 18px;
+	color: blue;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: 480px;
+	margin-top: 240px;
+	top:-90px;
+  opacity: 0;
+  transition: opacity 0.3s;
+
+}
+
+.pz .pztext::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.pz:hover .pztext{
   visibility: visible;
   opacity: 1;
 }
