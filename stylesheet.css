@@ -63,6 +63,7 @@ body{
 section{
 	margin: 4rem 0;
 }
+
 #bigletter{
 	height: 500px;
 	margin-left: -50px;
@@ -405,7 +406,7 @@ nav {
 
 .c {
 	width: 100px;
-	margin-top:-50px;
+	margin-top:-10px;
 	margin-left: 1500px;
 	transition: transform 1s ease-in-out;
 	position:absolute;
@@ -416,6 +417,6 @@ nav {
 }
 
 .cavestory{
-	margin-top:60px;
+	margin-top:30px;
 	margin-left:420px;
 }

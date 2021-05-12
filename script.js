@@ -23,7 +23,7 @@ $(document).ready(function(){
 	$('#default').click(function(event) {
 		// console.log('default clicked');
 		$("#content").css({
-			"--wdth": 100,
+			"--wdth": 40,
 			"--wght": 400,
 			"--XHGT": 0
 		});
@@ -36,19 +36,18 @@ $(document).ready(function(){
 			"--XHGT": 0
 		});
 	});
-
-  $('#lightcomp').click(function(event) {
+	$('#lightcomp').click(function(event) {
 		$("#content").css({
-			"--wdth": 40,
+			"--wdth": 100,
 			"--wght": 300,
 			"--XHGT": 0
 		});
 	});
 
-  $('#boldext').click(function(event) {
+	$('#boldext').click(function(event) {
 		$("#content").css({
-			"--wdth": 40,
-			"--wght": 700,
+			"--wdth": 130,
+			"--wght": 600,
 			"--XHGT": 0
 		});
 	});
@@ -64,7 +63,7 @@ $(document).ready(function(){
 
 	$('#random').click(function(event) {
 		let randomwidth = randomNumber(40,150);
-		let randomwght = randomNumber(100,1200);
+		let randomwght = randomNumber(100,900);
 		let randomxhgt = randomNumber(0,100);
 
 		$("#content").css({
@@ -73,6 +72,34 @@ $(document).ready(function(){
 			"--XHGT": randomxhgt,
 		});
 	});
+
+
+	//mouseposition
+	$('#intro').mousemove(function(event) {
+
+		console.log(event.pageX, event.pageY);
+
+		let cursorX = event.pageX / $(this).width();
+		let cursorY = 1 - (event.pageY) / $(this).height();
+
+		let settingX = Math.floor(cursorX * wdthmax);
+		let settingY = Math.floor(cursorY * wghtmax);
+
+		// console.log( settingX, settingY)
+
+		$("#bigletter").css({
+			"--wdth": settingX,
+			"--wght": settingY
+		});
+
+	});
+});
+
+
+// Function to generate random number
+function randomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min) + min);
+}
 
 
 	window.onload = function() {
@@ -104,5 +131,3 @@ $(document).ready(function(){
 	    }
 	  });
 	};
-
-	
