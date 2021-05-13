@@ -276,7 +276,7 @@ position: relative;
 	 	   visibility: hidden;
 	 	   width: 120px;
 	 	   background-color: black;
-	 	   font-size: 18px;
+	 	   font-size: 10px;
 	 	 	color: lightblue;
 	 	   text-align: center;
 	 	   border-radius: 6px;
@@ -318,7 +318,7 @@ position: relative;
 		 	visibility: hidden;
 		 	width: 120px;
 		 	background-color: black;
-		 	font-size: 18px;
+		 	font-size: 4px;
 		  color: orange;
 		 	text-align: center;
 		 	border-radius: 6px;
@@ -326,8 +326,8 @@ position: relative;
 		 	z-index: 1;
 		 	bottom: 125%;
 		 	left: 50%;
-		 	margin-left: 900px;
-		  top:500px;
+		 	margin-left: 880px;
+		  top:518px;
 		 	opacity: 0;
 		 	transition: opacity 0.3s;
 
@@ -360,7 +360,7 @@ position: relative;
 		  visibility: hidden;
 		  width: 210px;
 		  background-color: black;
-		  font-size: 18px;
+		  font-size: 4px;
 		  color: green;
 		  text-align: center;
 		  border-radius: 6px;
@@ -368,8 +368,8 @@ position: relative;
 		  z-index: 1;
 		  bottom: 125%;
 		  left: 50%;
-		  margin-left: 900px;
-		  top:550px;
+		  margin-left: 830px;
+		  top:500px;
 		  opacity: 0;
 		  transition: opacity 0.3s;
 
@@ -433,4 +433,15 @@ position: relative;
 
 #field{
 	margin-top:-220px;
+}
+
+div.marquee {
+    white-space:no-wrap;
+    overflow:hidden;
+		hight:20px;
+}
+div.marquee > div.marquee-text {
+    white-space:nowrap;
+    display:inline;
+    width:auto;
 }

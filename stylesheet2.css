@@ -27,13 +27,12 @@ body{
 	top: 7px;
 }
 
-
 .man{
 	position: fixed;
 	display: block;
   margin-left: auto;
 	left: 167px;
-	top: 196px;
+	top: 198px;
 }
 
 .man:hover{
@@ -152,7 +151,7 @@ opacity: 0;}
   font-family: 'newCiGX';
 	font-variation-settings: 'wght' 900;
 	font-size: 0.8em;
-	top:1000px;
+	top:850px;
   margin-left: 1450px;
   width: 200px;
   text-decoration:none;
@@ -275,14 +274,16 @@ p {
 .nc:hover {
  transform: rotate(90deg);
 }
-.c {
+.c1 {
 	width: 120px;
 	margin-top:160px;
 	margin-left: 900px;
 }
 
-.c:hover {
-	width: 180px;
+.c1:hover {
+	width: 780px;
+	margin-top:100px;
+	margin-right:200px;
 }
 
 .m {
@@ -294,7 +295,10 @@ p {
 }
 
 .m:hover {
-	 transform: rotate(180deg);
+		width: 480px;
+		 transform: rotate(180deg);
+		 	margin-top:100px;
+			left:30px;
 }
 
 .p {
@@ -592,8 +596,8 @@ p {
 
   position: absolute;
   top: 100%;
-  left: 50%;
-  margin-left: 105px;
+  left: 20px;
+  margin-left: 45px;
   border-width: 5px;
   border-style: solid;
   border-color: #555 transparent transparent transparent;
@@ -602,6 +606,7 @@ p {
 .city:hover .tooltiptext{
   visibility: visible;
   opacity: 1;
+	top:30px;
 }
 
 
@@ -729,4 +734,31 @@ p {
 .pz:hover .pztext{
   visibility: visible;
   opacity: 1;
+}
+
+div#container1 {height:1000px;width:1600px;}
+
+div.a {
+font-size: 45px;
+color:white;
+position:fixed;
+ background-color:white;
+ width:50px;
+height:50px;
+
+}
+div.b {
+width: 50px;
+height:50px;
+ background-color:none;
+position:fixed;
+color:white;
+
+}
+div.c {
+width: 50px;
+height:50px;
+ background-color:green;
+position:fixed;
+
 }
