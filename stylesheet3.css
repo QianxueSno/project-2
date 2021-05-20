@@ -114,7 +114,7 @@ p {
 }
 
 .bsz{
-	width: 0.13%;
+	width: 0.19%;
 	opacity: 0;
 	transition: transform 2s ease-in-out;
 	margin: auto;
@@ -129,17 +129,33 @@ p {
 }
 
 .ww{
-	width: 0.1%;
+	width: 0.15%;
 	opacity: 0;
 	transition: transform 2s ease-in-out;
 	margin: auto;
 	top: 490px;
-	left: 885px;
+	left: 886px;
 	opacity:0.4;
 	position:fixed;
 
 }
 .ww:hover{
+	opacity: 1;
+}
+
+.manha{
+	width: 1px;
+	opacity: 0;
+	transition: transform 2s ease-in-out;
+	margin: auto;
+	top: 490px;
+	left: 886px;
+	opacity:0.8;
+	position:fixed;
+	z-index: 900;
+
+}
+.mt:hover{
 	opacity: 1;
 }
 
@@ -246,7 +262,7 @@ p {
 		 	z-index: 1;
 		 	bottom: 125%;
 		 	left: 50%;
-		 	margin-left: 802px;
+		 	margin-left: 803px;
 		  top:489px;
 		 	opacity: 0;
 		 	transition: opacity 0.3s;
@@ -288,8 +304,8 @@ p {
 		  z-index: 1;
 		  bottom: 125%;
 		  left: 50%;
-		  margin-left: 746px;
-		  top:492px;
+		  margin-left: 747px;
+		  top:494px;
 		  opacity: 0;
 		  transition: opacity 0.3s;
 
@@ -310,6 +326,48 @@ p {
 		  visibility: visible;
 		  opacity: 1;
 		 }
+
+		 .mt{
+			position: relative;
+			display: inline-block;
+			border-bottom: 1px dotted black;
+		 }
+
+		 .mt .mtext {
+			visibility: hidden;
+			width: 210px;
+			background-color: black;
+			font-size: 0.5px;
+			color: lightskyblue;
+			text-align: center;
+			border-radius: 6px;
+			position: absolute;
+			z-index: 1;
+			bottom: 125%;
+			left: 50%;
+			margin-left: 736px;
+			top:492px;
+			opacity: 0;
+			transition: opacity 0.3s;
+
+		 }
+
+		 .mt .mtext::after {
+
+			position: absolute;
+			top: 100%;
+			left: 50%;
+			margin-left: 105px;
+			border-width: 5px;
+			border-style: solid;
+			border-color: #555 transparent transparent transparent;
+		 }
+
+		 .mt:hover .mtext{
+			visibility: visible;
+			opacity: 1;
+		 }
+
 
 .fmap{
 	width: 200px;
