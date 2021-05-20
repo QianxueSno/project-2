@@ -9,6 +9,7 @@
 }
 body{
 	font-family: 'newCiGX';
+	height: 100px;
 	font-style: regular;
 	font-size: 30px;
 	line-height: 1.5;
@@ -17,7 +18,7 @@ body{
 	color:  var(--color);
 	background-color: black;
 	background-image: linear-gradient(to right, black, black, black, black, black, white);
-
+	background-size: 300px 100px;
 }
 
 .eye{
@@ -57,6 +58,7 @@ body{
 .question{
 	margin-left: 50px;
 	position: fixed;
+	margin-top:200px;
 }
 
 p {
@@ -72,7 +74,7 @@ p {
 	opacity: 0;
 	transition: transform 2s ease-in-out;
 	margin: auto;
-	top: 80px;
+	top: 130px;
 	left: 500px;
 	opacity:0.5;
 	position:fixed;
@@ -145,15 +147,20 @@ p {
 	z-index: 200;
 }
 
+.center{
+
+}
+
 .square{
-background-image: linear-gradient(to right, black, black, black, black, black, green);
-border-color: green;
-height: 900px;
-margin:10px;
-overflow: hidden;
-overflow-x: hidden;
-overflow-y: hidden;
-position: relative;
+	background-image: linear-gradient(to right, black, black, black, black, black, green);
+	border-color: green;
+	height: 750px;
+	margin:10px;
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;
+	margin-top:20px;
 	}
 
 
@@ -369,7 +376,7 @@ position: relative;
 		  bottom: 125%;
 		  left: 50%;
 		  margin-left: 830px;
-		  top:500px;
+		  top:520px;
 		  opacity: 0;
 		  transition: opacity 0.3s;
 
@@ -444,4 +451,9 @@ div.marquee > div.marquee-text {
     white-space:nowrap;
     display:inline;
     width:auto;
+}
+
+.qn1
+{
+width:10px;
 }

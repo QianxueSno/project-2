@@ -33,6 +33,7 @@ body{
   margin-left: auto;
 	left: 167px;
 	top: 198px;
+	z-index: 900;
 }
 
 .man:hover{
@@ -44,6 +45,7 @@ body{
   margin-left: auto;
 	left: 449px;
 	top: 453px;
+	z-index: 900;
 }
 
 .woman:hover{
@@ -56,6 +58,7 @@ body{
   margin-left: auto;
 	left: 622px;
 	top: 175px;
+	z-index: 900;
 }
 
 .stranger:hover{
@@ -295,7 +298,7 @@ p {
 }
 
 .m:hover {
-		width: 480px;
+		width: 380px;
 		 transform: rotate(180deg);
 		 	margin-top:100px;
 			left:30px;
@@ -735,16 +738,14 @@ p {
   visibility: visible;
   opacity: 1;
 }
-
-div#container1 {height:1000px;width:1600px;}
+div#container {height:1000px;width:1900px;}
 
 div.a {
-font-size: 45px;
-color:white;
-position:fixed;
- background-color:white;
- width:50px;
+width: 50px;
 height:50px;
+ background-color:none;
+position:fixed;
+color:black;}
 
 }
 div.b {
@@ -758,7 +759,8 @@ color:white;
 div.c {
 width: 50px;
 height:50px;
- background-color:green;
+ background-color:none;
 position:fixed;
+color:white;
 
 }
