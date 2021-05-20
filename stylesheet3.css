@@ -9,6 +9,7 @@
 }
 body{
 	font-family: 'newCiGX';
+	width:100%;
 	height: 100px;
 	font-style: regular;
 	font-size: 30px;
@@ -19,7 +20,20 @@ body{
 	background-color: black;
 	background-image: linear-gradient(to right, black, black, black, black, black, white);
 	background-size: 300px 100px;
+	height:100%;
 }
+
+.square{
+	background-image: linear-gradient(to right, black, black, black, black, black, green);
+	border-color: green;
+	height: 950px;
+	margin:10px;
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;
+	margin-top:-220px;
+	}
 
 .eye{
 	float: right;
@@ -78,8 +92,8 @@ p {
 	left: 500px;
 	opacity:0.5;
 	position:fixed;
-
 }
+
 .globe:hover{
 	opacity: 1;
 }
@@ -151,17 +165,7 @@ p {
 
 }
 
-.square{
-	background-image: linear-gradient(to right, black, black, black, black, black, green);
-	border-color: green;
-	height: 750px;
-	margin:10px;
-	overflow: hidden;
-	overflow-x: hidden;
-	overflow-y: hidden;
-	position: relative;
-	margin-top:20px;
-	}
+
 
 
 	.draggable {
@@ -444,16 +448,17 @@ p {
 
 div.marquee {
     white-space:no-wrap;
+		width:1400px;
+		margin-left:200px;
     overflow:hidden;
 		hight:20px;
+		z-index: 1000;
+		margin-top:800px;
+		position: absolute;
 }
 div.marquee > div.marquee-text {
     white-space:nowrap;
     display:inline;
     width:auto;
-}
-
-.qn1
-{
-width:10px;
+				z-index: 1000;
 }
