@@ -103,7 +103,7 @@ p {
 	opacity: 0;
 	transition: transform 2s ease-in-out;
 	margin: auto;
-	top: 470px;
+	top: 463px;
 	left: 820px;
 	opacity:0.9;
 	position:fixed;
@@ -118,9 +118,9 @@ p {
 	opacity: 0;
 	transition: transform 2s ease-in-out;
 	margin: auto;
-	top: 503px;
+	top: 490px;
 	left: 884px;
-	opacity:1;
+	opacity:0.7;
 	position:fixed;
 
 }
@@ -133,7 +133,7 @@ p {
 	opacity: 0;
 	transition: transform 2s ease-in-out;
 	margin: auto;
-	top: 503px;
+	top: 490px;
 	left: 885px;
 	opacity:0.4;
 	position:fixed;
@@ -238,7 +238,7 @@ p {
 		 	visibility: hidden;
 		 	width: 120px;
 		 	background-color: black;
-		 	font-size: 4px;
+		 	font-size: 0.5px;
 		  color: orange;
 		 	text-align: center;
 		 	border-radius: 6px;
@@ -246,8 +246,8 @@ p {
 		 	z-index: 1;
 		 	bottom: 125%;
 		 	left: 50%;
-		 	margin-left: 880px;
-		  top:518px;
+		 	margin-left: 802px;
+		  top:489px;
 		 	opacity: 0;
 		 	transition: opacity 0.3s;
 
@@ -280,7 +280,7 @@ p {
 		  visibility: hidden;
 		  width: 210px;
 		  background-color: black;
-		  font-size: 3px;
+		  font-size: 0.5px;
 		  color: green;
 		  text-align: center;
 		  border-radius: 6px;
@@ -288,8 +288,8 @@ p {
 		  z-index: 1;
 		  bottom: 125%;
 		  left: 50%;
-		  margin-left: 690px;
-		  top:494px;
+		  margin-left: 746px;
+		  top:492px;
 		  opacity: 0;
 		  transition: opacity 0.3s;
 
