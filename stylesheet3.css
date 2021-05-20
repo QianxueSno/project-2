@@ -519,3 +519,41 @@ div.marquee > div.marquee-text {
     width:auto;
 				z-index: 1000;
 }
+
+.ww1{
+	width: 200px;
+	position: absolute;
+	z-index: 9000;
+	right: 400px;
+	top:360px;
+
+}
+
+.ww2{
+	width: 200px;
+	position: absolute;
+	z-index: 9000;
+	top:400px;
+	left: 400px;
+}
+.ww3{
+	width: 200px;
+	position: absolute;
+	z-index: 9000;
+	top:80px;
+	left: 770px;
+}
+.ww6{
+	width: 200px;
+	position: absolute;
+	z-index: 9000;
+	top:650px;
+	left: 460px;
+}
+.ww5{
+	width: 250px;
+	position: absolute;
+	z-index: 9000;
+	top:660px;
+	right: 400px;
+}
