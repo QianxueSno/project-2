@@ -526,6 +526,7 @@ div.marquee > div.marquee-text {
 	z-index: 9000;
 	right: 400px;
 	top:360px;
+	border: none;
 
 }
 
@@ -535,6 +536,7 @@ div.marquee > div.marquee-text {
 	z-index: 9000;
 	top:400px;
 	left: 400px;
+	border: none;
 }
 .ww3{
 	width: 200px;
